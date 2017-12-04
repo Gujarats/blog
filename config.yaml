@@ -1,0 +1,11 @@
+baseurl: gujarats.github.io/my-blog
+title: My Personal Blog
+author: Gujarat Santana
+copyright: 'Copyright (c) 2017, Gujarat Santana; all rights reserved.'
+canonifyurls: true
+paginate: 3
+theme: code-editor
+publishDir: docs
+params:
+  author: Gujarat Santana
+  locale: en-US
