@@ -3,97 +3,97 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>gujarats.github.io/my-blog/post/creating-a-new-theme/</loc>
+    <loc>gujarats.github.io/post/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>gujarats.github.io/my-blog/post/migrate-from-jekyll/</loc>
+    <loc>gujarats.github.io/post/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>gujarats.github.io/my-blog/about/</loc>
+    <loc>gujarats.github.io/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>gujarats.github.io/my-blog/post/goisforlovers/</loc>
+    <loc>gujarats.github.io/post/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>gujarats.github.io/my-blog/post/hugoisforlovers/</loc>
+    <loc>gujarats.github.io/post/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>gujarats.github.io/my-blog/categories/</loc>
+    <loc>gujarats.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>gujarats.github.io/my-blog/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>gujarats.github.io/my-blog/categories/development/</loc>
+    <loc>gujarats.github.io/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>gujarats.github.io/my-blog/tags/go/</loc>
+    <loc>gujarats.github.io/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>gujarats.github.io/my-blog/tags/golang/</loc>
+    <loc>gujarats.github.io/tags/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>gujarats.github.io/my-blog/categories/golang/</loc>
+    <loc>gujarats.github.io/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>gujarats.github.io/my-blog/tags/hugo/</loc>
+    <loc>gujarats.github.io/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>gujarats.github.io/my-blog/</loc>
+    <loc>gujarats.github.io/tags/hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>gujarats.github.io/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>gujarats.github.io/my-blog/post/</loc>
+    <loc>gujarats.github.io/post/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>gujarats.github.io/my-blog/tags/</loc>
+    <loc>gujarats.github.io/tags/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>gujarats.github.io/my-blog/tags/templates/</loc>
+    <loc>gujarats.github.io/tags/templates/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>gujarats.github.io/my-blog/tags/themes/</loc>
+    <loc>gujarats.github.io/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
