@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on My Personal Blog</title>
-    <link>http://gujarats.github.io/my-blog/tags/</link>
+    <link>gujarats.github.io/my-blog/tags/</link>
     <description>Recent content in Tags on My Personal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright (c) 2017, Gujarat Santana; all rights reserved.</copyright>
     <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://gujarats.github.io/my-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="gujarats.github.io/my-blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Development</title>
-      <link>http://gujarats.github.io/my-blog/tags/development/</link>
+      <link>gujarats.github.io/my-blog/tags/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://gujarats.github.io/my-blog/tags/development/</guid>
+      <guid>gujarats.github.io/my-blog/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Go</title>
-      <link>http://gujarats.github.io/my-blog/tags/go/</link>
+      <link>gujarats.github.io/my-blog/tags/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://gujarats.github.io/my-blog/tags/go/</guid>
+      <guid>gujarats.github.io/my-blog/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>http://gujarats.github.io/my-blog/tags/golang/</link>
+      <link>gujarats.github.io/my-blog/tags/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://gujarats.github.io/my-blog/tags/golang/</guid>
+      <guid>gujarats.github.io/my-blog/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>http://gujarats.github.io/my-blog/tags/hugo/</link>
+      <link>gujarats.github.io/my-blog/tags/hugo/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://gujarats.github.io/my-blog/tags/hugo/</guid>
+      <guid>gujarats.github.io/my-blog/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Templates</title>
-      <link>http://gujarats.github.io/my-blog/tags/templates/</link>
+      <link>gujarats.github.io/my-blog/tags/templates/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://gujarats.github.io/my-blog/tags/templates/</guid>
+      <guid>gujarats.github.io/my-blog/tags/templates/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Themes</title>
-      <link>http://gujarats.github.io/my-blog/tags/themes/</link>
+      <link>gujarats.github.io/my-blog/tags/themes/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://gujarats.github.io/my-blog/tags/themes/</guid>
+      <guid>gujarats.github.io/my-blog/tags/themes/</guid>
       <description></description>
     </item>
     

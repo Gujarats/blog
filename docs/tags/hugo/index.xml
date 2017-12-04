@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on My Personal Blog</title>
-    <link>http://gujarats.github.io/my-blog/tags/hugo/</link>
+    <link>gujarats.github.io/my-blog/tags/hugo/</link>
     <description>Recent content in Hugo on My Personal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright (c) 2017, Gujarat Santana; all rights reserved.</copyright>
     <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://gujarats.github.io/my-blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="gujarats.github.io/my-blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>http://gujarats.github.io/my-blog/post/hugoisforlovers/</link>
+      <link>gujarats.github.io/my-blog/post/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://gujarats.github.io/my-blog/post/hugoisforlovers/</guid>
+      <guid>gujarats.github.io/my-blog/post/hugoisforlovers/</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo
