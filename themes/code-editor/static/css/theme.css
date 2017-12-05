@@ -12,21 +12,24 @@ body {
   margin: 0; }
 
 .article-style{
+  margin-top:1em;
   display: block;
   border-style:dotted;
 }
 
-.article-style h2 {
+.article-style a {
   margin-left:1em;
-}
-
-
-.article-style h1 {
-  margin-left:0.5em;
 }
 
 .article-style p {
   margin-left:0.5em;
+}
+
+.summary{
+  margin-top:1em;
+  margin-left:1em;
+  margin-right:1em;
+  margin-bottom:1em;
 }
 
 aside,
