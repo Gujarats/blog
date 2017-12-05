@@ -15,7 +15,7 @@
     </div>
 
     {{ with .Site.Taxonomies.tags }}
-    <div id="tags" class="open">
+    <div id="tags" class="close">
         <h3 data-open="tags">{{ ( index $.Site.Data.translations $.Site.Params.locale ).tags }}</h3>
         <ul class="tags">
             {{ range $name, $taxonomy := . }}
