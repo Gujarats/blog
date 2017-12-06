@@ -1,5 +1,6 @@
 .idea
 themes/code-editor/npm-debug.log
 themes/code-editor/node_modules
+themes/code-editor/static/css/.sass-cache
 !static/fonts/.gitkeep
 public
