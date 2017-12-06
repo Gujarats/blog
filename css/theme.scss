@@ -3,6 +3,41 @@
 @import "./mixins";
 @import "./paginator";
 
+.top{
+    margin-top:5em;
+}
+
+
+code{
+    color: $single-code-color;
+    background-color: $single-code-bg;
+    padding: 0.2em;
+}
+
+body {
+  margin: 0; }
+
+.article-style{
+  margin-top:1em;
+  display: block;
+  border-style:dotted;
+}
+
+.article-style a {
+  margin-left:1em;
+}
+
+.article-style p {
+  margin-left:0.5em;
+}
+
+.summary{
+  margin-top:1em;
+  margin-left:1em;
+  margin-right:1em;
+  margin-bottom:1em;
+}
+
 html {
   height: 100%;
 }
@@ -47,7 +82,9 @@ a {
   padding-left: 0px;
   nav {
     @media (min-width: $screen-md-min) {
-      @extend .no-padding-left-and-right;
+      //@extend .no-padding-left-and-right;
+      padding-left: 0px;
+      padding-right: 0px;
       position: fixed;
       height: 100%;
       overflow-y: auto;

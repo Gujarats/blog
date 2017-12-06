@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on My Personal Blog</title>
+    <link>https://gujarats.github.io/blog/tags/web/</link>
+    <description>Recent content in Web on My Personal Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright (c) 2017, Gujarat Santana; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 05 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://gujarats.github.io/blog/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setup my own blog using Hugo, sass, and Gulp</title>
+      <link>https://gujarats.github.io/blog/post/setup-blog/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://gujarats.github.io/blog/post/setup-blog/</guid>
+      <description>Installation There are several steps to setup this blog so that it is up and running in your local using hugo, sass, and gulp.
+Install Hugo I&amp;rsquo;m using Ubuntu 16.04 and the easiest way to install it is to download the package from : https://github.com/gohugoio/hugo/releases you can choose .deb and install it
+Install gulp You need to have npm installed so that you can just run this command
+npm install -g gulp  Install sass In ubuntu you need to install ruby first so here is the steps :</description>
+    </item>
+    
+  </channel>
+</rss>

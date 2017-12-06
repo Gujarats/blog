@@ -4,34 +4,10 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
-.top{
-    margin-top:5em;
-}
-
 body {
   margin: 0; }
 
-.article-style{
-  margin-top:1em;
-  display: block;
-  border-style:dotted;
-}
-
-.article-style a {
-  margin-left:1em;
-}
-
-.article-style p {
-  margin-left:0.5em;
-}
-
-.summary{
-  margin-top:1em;
-  margin-left:1em;
-  margin-right:1em;
-  margin-bottom:1em;
-}
-
+article,
 aside,
 details,
 figcaption,
@@ -44,8 +20,7 @@ menu,
 nav,
 section,
 summary {
-  display: block;
-  }
+  display: block; }
 
 audio,
 canvas,
@@ -1095,7 +1070,6 @@ a {
     color: #1a645f;
     text-decoration: underline; }
   a:focus {
-    outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px; }
 
@@ -1913,9 +1887,6 @@ table th[class*="col-"] {
   margin-left: auto;
   margin-right: auto; }
 
-.center-element {
-  margin:auto;}
-
 .pull-right {
   float: right !important; }
 
@@ -2117,7 +2088,7 @@ table th[class*="col-"] {
   .hidden-print {
     display: none !important; } }
 
-.no-padding-left-and-right, body > .container-fluid, .menu nav {
+.no-padding-left-and-right, body > .container-fluid {
   padding-left: 0px;
   padding-right: 0px; }
 
@@ -2148,6 +2119,34 @@ ul.pagination {
       text-decoration: underline; }
     ul.pagination li.disabled a {
       color: #839496; }
+
+.top {
+  margin-top: 5em; }
+
+code {
+  color: #b64926;
+  background-color: #000000;
+  padding: 0.2em; }
+
+body {
+  margin: 0; }
+
+.article-style {
+  margin-top: 1em;
+  display: block;
+  border-style: dotted; }
+
+.article-style a {
+  margin-left: 1em; }
+
+.article-style p {
+  margin-left: 0.5em; }
+
+.summary {
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em; }
 
 html {
   height: 100%; }
@@ -2183,6 +2182,8 @@ a {
   padding-left: 0px; }
   @media (min-width: 992px) {
     .menu nav {
+      padding-left: 0px;
+      padding-right: 0px;
       position: fixed;
       height: 100%;
       overflow-y: auto;
@@ -2218,6 +2219,9 @@ a {
       padding: 10px 0px 10px 15px; }
     .menu nav ul li {
       padding: 10px 30px 10px 40px; } }
+
+.top-margin {
+  top: 15px; }
 
 .video-wrapper {
   position: relative;

@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+<head>
+    <base href="https://gujarats.github.io/blog/">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="author" content="Gujarat Santana">
+
+<meta name="description" content="">
+
+<title>Setup my own blog using Hugo, sass, and Gulp</title>
+<meta name="generator" content="Hugo 0.31.1" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/pojoaque.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" rel="stylesheet" type="text/css">
+<link  href="https://gujarats.github.io/blog//css/theme.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<div class="page-container container-fluid">
+<div class="col-md-3 menu">
+    <nav class="col-md-3">
+    <img class="img-thumbnail center-block top" src="https://gujarats.github.io/blog/img/profile/gujarats.jpg" width="100px" height="100px">
+    <h3 class="home-link"><a href="https://gujarats.github.io/blog/">Gujarat Santana</a></h3>
+    <div class="col-sm-offset-5">
+        <a href="https://stackoverflow.com/cv/gujarat-santana" target="_blank"><img src="https://gujarats.github.io/blog/img/stack-overflow.svg" ></a>
+        <a href="https://github.com/Gujarats" target="_blank"> <img src="https://gujarats.github.io/blog/img/github.svg" ></a>
+    </div>
+    <div id="last-posts" class="open">
+        <h3 data-open="last-posts">My Personal Blog - Most recent posts</h3>
+        <ul>
+            
+            <li><a href="https://gujarats.github.io/blog/post/four-year-experience/">Hard lessons from 4 years in various software companies</a></li>
+            
+            <li><a href="https://gujarats.github.io/blog/post/setup-blog/">Setup my own blog using Hugo, sass, and Gulp</a></li>
+            
+        </ul>
+    </div>
+
+    
+    <div id="tags" class="close">
+        <h3 data-open="tags">Tags</h3>
+        <ul class="tags">
+            
+            <li><a href="https://gujarats.github.io/blog/tags/experience">experience</a></li>
+            
+            <li><a href="https://gujarats.github.io/blog/tags/web">web</a></li>
+            
+        </ul>
+    </div>
+    
+
+    
+    <div id="categories" class="open">
+        <h3 data-open="categories">Categories</h3>
+        <ul class="categories">
+            
+            <li><a href="https://gujarats.github.io/blog/categories/experience">experience</a></li>
+            
+            <li><a href="https://gujarats.github.io/blog/categories/web">web</a></li>
+            
+        </ul>
+    </div>
+    
+</nav>
+
+</div>
+<div class="col-md-9 content">
+
+<h1>Setup my own blog using Hugo, sass, and Gulp</h1>
+<h4>Published 12-05-2017</h4>
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="kendo5731"></a>
+<script>!function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+    if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.src = p + '://platform.twitter.com/widgets.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }
+}(document, 'script', 'twitter-wjs');</script>
+
+<div class="fb-share-button" data-href="https://gujarats.github.io/blog/post/setup-blog/" data-layout="button"></div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en-US/sdk.js#xfbml=1&version=v2.5";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<article>
+    
+
+<h2 id="installation">Installation</h2>
+
+<p>There are several steps to setup this blog so that it is up and running in your local using <code>hugo</code>, <code>sass</code>, and <code>gulp</code>.</p>
+
+<h3 id="install-hugo">Install Hugo</h3>
+
+<p>I&rsquo;m using Ubuntu 16.04 and the easiest way to install it is to download the package from :
+<code>https://github.com/gohugoio/hugo/releases</code> you can choose <code>.deb</code> and install it</p>
+
+<h2 id="install-gulp">Install gulp</h2>
+
+<p>You need to have <code>npm</code> installed so that you can just run this command</p>
+
+<pre><code>npm install -g gulp
+</code></pre>
+
+<h2 id="install-sass">Install sass</h2>
+
+<p>In ubuntu you need to install ruby first so here is the steps :</p>
+
+<pre><code> sudo apt-get update
+ sudo apt-get isntall rubygems
+ sudo apt-get install rubygems
+ sudo apt-get install rubygems-integration
+ sudo apt-get install ruby-dev
+ sudo gem install sass
+</code></pre>
+
+<p>you will see this final output : <code>Sass 3.5.3 (Bleeding Edge)</code>.</p>
+
+<h2 id="live-reload-in-all-css-js-and-content">Live Reload in all css,js, and content</h2>
+
+<p>To enable live realod here is the step</p>
+
+<ul>
+<li>Start hugo in root project</li>
+</ul>
+
+<pre><code> hugo server
+</code></pre>
+
+<ul>
+<li>Start gulp to  watch all the <code>.js</code>, <code>.css</code> files changes and make it to minified files</li>
+</ul>
+
+<pre><code> cd themes/code-editor
+ gulp watch
+</code></pre>
+
+<p>for specific extension files see the gulpfile.js eg : <code>gulp watch css</code> for watching only css file changes.</p>
+
+<ul>
+<li>Start sass to watch file changes for <code>.scss</code> file extension and compile it to theme.css</li>
+</ul>
+
+<pre><code> sass --watch theme.scss:theme.css
+</code></pre>
+
+<p>After all above steps you are ready to changes the <code>.js</code>, <code>.scss</code> file and watch it reload automatically.</p>
+
+<h2 id="known-issues">Known Issues</h2>
+
+<ul>
+<li>Found issue when running <code>gulp</code> and got an error like</li>
+</ul>
+
+<pre><code class="language-error"> ERROR :: gulp-git require.extensions.hasownproperty is not a function
+</code></pre>
+
+<p>you can set the dependencies for <code>require-dir</code> to version <code>0.3.2</code></p>
+
+</article>
+
+
+
+</div>
+</div>
+<script src="https://gujarats.github.io/blog//js/theme.min.js" type="text/javascript"></script>
+
+
+</body>
+</html>
+

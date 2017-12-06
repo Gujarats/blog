@@ -6,54 +6,31 @@
     <description>Recent content in Posts on My Personal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright (c) 2017, Gujarat Santana; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://gujarats.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Creating a New Theme</title>
-      <link>https://gujarats.github.io/blog/post/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>Hard lessons from 4 years in various software companies</title>
+      <link>https://gujarats.github.io/blog/post/four-year-experience/</link>
+      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gujarats.github.io/blog/post/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <guid>https://gujarats.github.io/blog/post/four-year-experience/</guid>
+      <description>I have been in various type of companies from early start-up, mid-start-up, and big company. And doing some freelance jobs. Doing some front-end and back-end jobs. It is very exciting journey and yet chalengging and also painful.
+How I felt to be Software Developer in the industry My honest opinion when become a Software Developer is I don&amp;rsquo;t have a life like my friends do who are pursuing different career like Lawyer, Accountant, Doctor, Teacher.</description>
     </item>
     
     <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>https://gujarats.github.io/blog/post/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      <title>Setup my own blog using Hugo, sass, and Gulp</title>
+      <link>https://gujarats.github.io/blog/post/setup-blog/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gujarats.github.io/blog/post/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://gujarats.github.io/blog/post/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://gujarats.github.io/blog/post/goisforlovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://gujarats.github.io/blog/post/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://gujarats.github.io/blog/post/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+      <guid>https://gujarats.github.io/blog/post/setup-blog/</guid>
+      <description>Installation There are several steps to setup this blog so that it is up and running in your local using hugo, sass, and gulp.
+Install Hugo I&amp;rsquo;m using Ubuntu 16.04 and the easiest way to install it is to download the package from : https://github.com/gohugoio/hugo/releases you can choose .deb and install it
+Install gulp You need to have npm installed so that you can just run this command
+npm install -g gulp  Install sass In ubuntu you need to install ruby first so here is the steps :</description>
     </item>
     
   </channel>
