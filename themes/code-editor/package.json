@@ -4,7 +4,8 @@
   "repository": "https://github.com/aubm/aubm-website-theme.git",
   "license": "MIT",
   "dependencies": {
-    "bootstrap-sass": "^3.3.6"
+    "bootstrap-sass": "^3.3.6",
+    "require-dir": "^0.3.2"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
