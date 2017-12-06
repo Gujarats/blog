@@ -7,6 +7,13 @@
     margin-top:5em;
 }
 
+
+code{
+    color: $single-code-color;
+    background-color: $single-code-bg;
+    padding: 0.2em;
+}
+
 body {
   margin: 0; }
 
