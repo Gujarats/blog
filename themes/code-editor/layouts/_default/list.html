@@ -3,7 +3,7 @@
 <div class="articles-list">
     {{ range $paginator.Pages }}
     <article class="article-style">
-        <h1><a href="{{ .Permalink }}">{{ .Title }}</a> - {{ dateFormat "2006-01-02" .Date }}</h1>
+        <h1><a href="{{ .Permalink }}">{{ .Title }}</a> - {{ dateFormat "January 2016" .Date }}</h1>
         {{ .Summary }}
     </article>
     {{ end }}
