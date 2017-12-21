@@ -6,10 +6,20 @@
     <description>Recent content on My Personal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright (c) 2017, Gujarat Santana; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 06 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://gujarats.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Reading Other People&#39;s Code</title>
+      <link>https://gujarats.github.io/blog/post/reading-others-people-code/</link>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://gujarats.github.io/blog/post/reading-others-people-code/</guid>
+      <description>Please make your self comfortable to read other people&amp;rsquo;s code, because it is going to be your daily life as a programmer. Make it as the journer to the wonderful land, and take your time don&amp;rsquo;t rush and understand and try it out.
+Maybe this is sounds ridiculous if I say reading other people&amp;rsquo;s code is fun, in fact it is hard to read the code that written by other.</description>
+    </item>
     
     <item>
       <title>Hard lessons from 4 years in various software companies</title>
