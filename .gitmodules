@@ -1,3 +1,6 @@
 [submodule "themes/test"]
 	path = themes/test
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/qubt"]
+	path = themes/qubt
+	url = git@github.com:chrede88/qubt.git
