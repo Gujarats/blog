@@ -2,9 +2,9 @@
 title: Starting My Jekyll Again
 summary: After a few months of never touching the static site generator, especially Jekyll, now I feel like it is the time for me to get started with Jekyll.
 date: 2024-11-03
-cardimage: photo1_card.jpeg
-featureimage: photo1.jpeg
-caption: Image caption
+cardimage: jekyll_logo.png
+featureimage: jekyll_logo.png
+caption: wikipedia
 toc: true
 ---
 
