@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://gujarats.github.io/blog/blog/</loc>
-    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gujarats.github.io/blog/blog/post1/</loc>
-    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gujarats.github.io/blog/</loc>
     <lastmod>2023-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gujarats.github.io/blog/blog/post2/</loc>
+    <loc>https://gujarats.github.io/blog/post1/</loc>
+    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gujarats.github.io/</loc>
+    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gujarats.github.io/blog/post2/</loc>
     <lastmod>2023-11-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gujarats.github.io/blog/blog/post3/</loc>
+    <loc>https://gujarats.github.io/blog/post3/</loc>
     <lastmod>2023-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gujarats.github.io/blog/blog/post4/</loc>
+    <loc>https://gujarats.github.io/blog/post4/</loc>
     <lastmod>2023-11-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gujarats.github.io/blog/about/</loc>
+    <loc>https://gujarats.github.io/about/</loc>
   </url>
 </urlset>
