@@ -24,3 +24,9 @@ permalinks:
   page:
     blog: :title
 
+markup:
+  tableOfContents:
+    endLevel: 3
+    ordered: true
+    startLevel: 1
+
