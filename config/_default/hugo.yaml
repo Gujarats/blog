@@ -14,7 +14,13 @@ disableKinds: ["taxonomy", "term"]
 languageCode: "en-us"
 enableRobotsTXT: true
 
+############################
+## Bypass the home page directly to blog path
+############################
+
 permalinks:
   section:
     blog: /
+  page:
+    blog: :title
 

@@ -1,3 +1,4 @@
 ---
-title: Blog
+title: Personal Writtings
 ---
+
