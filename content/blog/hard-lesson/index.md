@@ -2,7 +2,8 @@
 author: "Gujarat Santana"
 date: 2018-12-06 
 title: Hard lessons from 4 years in various software companies
-subtitle: and usually my work everyday includes Refactoring, reading other people's code, writing tests, getting stuck by stupid commas or semicolons, or by exported and unexported fields. .
+subtitle: and usually my work everyday includes Refactoring, reading other people's code, writing tests, getting stuck by stupid commas or semicolons, or by exported and unexported fields.
+summary: been in various types of companies from early start-up, mid-start-up, and big company. And doing some freelance jobs. with front-end,back-end and also a little bit touching the tech cloud
 tags : 
  - career
   - experience 
