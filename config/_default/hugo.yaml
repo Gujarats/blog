@@ -14,3 +14,7 @@ disableKinds: ["taxonomy", "term"]
 languageCode: "en-us"
 enableRobotsTXT: true
 
+permalinks:
+  section:
+    blog: /
+

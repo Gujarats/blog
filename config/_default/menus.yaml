@@ -3,12 +3,9 @@
 ############################
 
 main:
-  - name: Home
+  - name: Blog
     url: /
     weight: 10
-  - name: Blog
-    url: /blog/
-    weight: 20
   - name: CV
     url: "https://gujarats.github.io/cv"
     weight: 30
