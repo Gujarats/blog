@@ -51,22 +51,22 @@
 
 
 
-<meta property="og:url" content="http://localhost:1313/blog/blog-post-4/">
+<meta property="og:url" content="http://localhost:1313/blog/setup-my-own-blog-using-hugo-sass-and-gulp/">
   <meta property="og:site_name" content="Tech Blog">
-  <meta property="og:title" content="Blog Post 4">
-  <meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id erat enim. Ut cursus magna sed luctus auctor. Sed eu augue dignissim, lobortis ipsum eu, dictum nisi. Integer varius ex maximus quam lobortis accumsan. Morbi mollis vulputate metus, aliquam feugiat arcu porta a. Quisque id justo ultricies, lacinia elit quis, pulvinar odio. Fusce feugiat at velit vitae lobortis. Nulla fringilla metus et sem mattis posuere. Nulla pellentesque quam sit amet est posuere, tincidunt auctor ligula bibendum. Donec dapibus lacinia nibh, convallis ultrices enim laoreet et.">
+  <meta property="og:title" content="Setup my own blog using Hugo, sass, and Gulp">
+  <meta property="og:description" content="There are several steps to setup this blog so that it is up and running in your local using hugo, sass, and gulp.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2023-11-21T00:00:00+00:00">
-    <meta property="article:modified_time" content="2023-11-21T00:00:00+00:00">
+    <meta property="article:published_time" content="2017-12-05T00:00:00+00:00">
+    <meta property="article:modified_time" content="2017-12-05T00:00:00+00:00">
     <meta property="og:image" content="http://localhost:1313/blog/thumbnail.png">
 
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/blog/thumbnail.png">
-  <meta name="twitter:title" content="Blog Post 4">
-  <meta name="twitter:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id erat enim. Ut cursus magna sed luctus auctor. Sed eu augue dignissim, lobortis ipsum eu, dictum nisi. Integer varius ex maximus quam lobortis accumsan. Morbi mollis vulputate metus, aliquam feugiat arcu porta a. Quisque id justo ultricies, lacinia elit quis, pulvinar odio. Fusce feugiat at velit vitae lobortis. Nulla fringilla metus et sem mattis posuere. Nulla pellentesque quam sit amet est posuere, tincidunt auctor ligula bibendum. Donec dapibus lacinia nibh, convallis ultrices enim laoreet et.">
+  <meta name="twitter:title" content="Setup my own blog using Hugo, sass, and Gulp">
+  <meta name="twitter:description" content="There are several steps to setup this blog so that it is up and running in your local using hugo, sass, and gulp.">
 
 
 <script>
@@ -152,13 +152,13 @@
   <div class="justify-left mx-auto mt-8 flex max-w-screen-md px-4">
     <article>
       <h1 class="text-4xl font-extrabold text-slate-700 dark:text-slate-200">
-        Blog Post 4
+        Setup my own blog using Hugo, sass, and Gulp
       </h1>
       <h2 class="mt-4 text-2xl text-slate-500 dark:text-slate-400">
-        
+        Very old post
       </h2>
       <div class="mb-4 mt-2 text-sm text-slate-500 dark:text-slate-400">
-        Nov 21, 2023 - 3 minute read
+        Dec 5, 2017 - 2 minute read
       </div>
 
       
@@ -166,17 +166,48 @@
       
 
       <span class="prose prose-slate break-words text-lg text-slate-700 dark:prose-invert prose-pre:max-w-[90vw] md:prose-pre:max-w-screen-md dark:text-slate-200">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id erat enim. Ut cursus magna sed luctus auctor. Sed eu augue dignissim, lobortis ipsum eu, dictum nisi. Integer varius ex maximus quam lobortis accumsan. Morbi mollis vulputate metus, aliquam feugiat arcu porta a. Quisque id justo ultricies, lacinia elit quis, pulvinar odio. Fusce feugiat at velit vitae lobortis. Nulla fringilla metus et sem mattis posuere &#x26a1;.</p>
-<p><strong>Heading</strong></p>
+        <h1 id="deprecated">Deprecated</h1>
+<p>This post was very old and I abandoned them please refer to new post here</p>
+<h2 id="installation">Installation</h2>
+<p>There are several steps to setup this blog so that it is up and running in your local using <code>hugo</code>, <code>sass</code>, and <code>gulp</code>.</p>
+<h3 id="install-hugo">Install Hugo</h3>
+<p>I&rsquo;m using Ubuntu 16.04 and the easiest way to install it is to download the package from :
+<code>https://github.com/gohugoio/hugo/releases</code> you can choose <code>.deb</code> and install it</p>
+<h2 id="install-gulp">Install gulp</h2>
+<p>You need to have <code>npm</code> installed so that you can just run this command</p>
+<pre tabindex="0"><code>npm install -g gulp
+</code></pre><h2 id="install-sass">Install sass</h2>
+<p>In ubuntu you need to install ruby first so here is the steps :</p>
+<pre tabindex="0"><code> sudo apt-get update
+ sudo apt-get isntall rubygems
+ sudo apt-get install rubygems
+ sudo apt-get install rubygems-integration
+ sudo apt-get install ruby-dev
+ sudo gem install sass
+</code></pre><p>you will see this final output : <code>Sass 3.5.3 (Bleeding Edge)</code>.</p>
+<h2 id="live-reload-in-all-cssjs-and-content">Live Reload in all css,js, and content</h2>
+<p>To enable live realod here is the step</p>
 <ul>
-<li>List item 1</li>
-<li>List item 2</li>
-<li>List item 3</li>
+<li>Start hugo in root project</li>
 </ul>
-<p>Nulla pellentesque quam sit amet est posuere, tincidunt auctor ligula bibendum. Donec dapibus lacinia nibh, convallis ultrices enim laoreet et. Duis auctor, lectus nec vehicula suscipit, sapien erat pellentesque augue, pulvinar tempus sapien leo sit amet erat. Proin porta, mauris vitae aliquet consectetur, erat eros maximus turpis, at suscipit nibh urna id leo. Nunc commodo sed diam ut aliquet. Duis eros mi, ullamcorper sit amet ex id, aliquet dignissim libero. Fusce at turpis eget nisl feugiat cursus eget vitae elit. Integer auctor enim vel orci fringilla facilisis. Praesent ac euismod tellus.</p>
-<p>Cras ligula velit, aliquet ac orci dapibus, molestie ultricies libero. Donec at bibendum est. Phasellus vulputate dapibus quam vel accumsan. Curabitur at felis euismod, lobortis urna id, lobortis dolor. Cras tortor ligula, euismod quis lacus faucibus, condimentum fringilla dolor. Mauris in maximus nisi. Phasellus facilisis lacus quis mi cursus, a ornare mi maximus. Nullam nunc lacus, tincidunt varius risus nec, pellentesque vulputate ligula. Etiam id purus et tortor porta mattis. Donec id sapien nulla. Vivamus at malesuada tellus, id ultricies ante. Maecenas ullamcorper mi massa, at rutrum risus aliquet a. Donec sem tortor, molestie quis ex a, faucibus commodo augue. Morbi convallis sem vel tellus facilisis, et sodales felis consequat. Aliquam ut ante tristique, volutpat lectus vestibulum, egestas sapien.</p>
-<p>Donec tellus est, faucibus eget ultricies ac, posuere non augue. Fusce ultrices lectus quis nunc lacinia, non tincidunt lectus ultrices. Morbi sodales nisi at felis luctus, eu convallis tortor commodo. Morbi tristique nibh neque, vel tristique dolor laoreet eget. Phasellus felis erat, mattis at suscipit id, faucibus in dolor. In vitae odio at lectus tincidunt dignissim. Fusce risus nisl, hendrerit a ultricies vitae, porta id sapien. Nam elit nunc, hendrerit ut sem quis, ultrices varius leo. Nullam eget lectus in sapien venenatis iaculis at at turpis. Etiam iaculis magna porttitor augue tempus suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam suscipit nibh leo, in pellentesque urna luctus et. Duis diam ipsum, posuere nec tellus sit amet, dignissim feugiat massa. Etiam ut sollicitudin lorem. Quisque commodo libero non mauris viverra malesuada. Morbi vitae auctor felis.</p>
-<p>Maecenas ac dignissim dolor. Sed vitae nisl vel ante rutrum tincidunt ac et diam. Integer id dignissim quam. Vestibulum quis enim sit amet tellus tincidunt sagittis ut vitae nunc. Sed hendrerit, quam ut fermentum imperdiet, augue purus cursus felis, in ultricies elit mauris in risus. Morbi hendrerit imperdiet vehicula. Etiam porttitor magna eu quam laoreet ullamcorper. Etiam a erat ante. Curabitur pharetra, lacus in porttitor cursus, libero lacus consectetur dui, sit amet auctor tellus magna et enim. Pellentesque tristique molestie fringilla. Vivamus sit amet tincidunt quam. Morbi eu nisi quam. Nunc ultrices vel sem sit amet aliquam.</p>
+<pre tabindex="0"><code>hugo server
+</code></pre><ul>
+<li>Start gulp to watch all the <code>.js</code>, <code>.css</code> files changes and make it to minified files</li>
+</ul>
+<pre tabindex="0"><code>cd themes/code-editor
+gulp watch
+</code></pre><p>for specific extension files see the gulpfile.js eg : <code>gulp watch css</code> for watching only css file changes.</p>
+<ul>
+<li>Start sass to watch file changes for <code>.scss</code> file extension and compile it to theme.css</li>
+</ul>
+<pre tabindex="0"><code>sass --watch theme.scss:theme.css
+</code></pre><p>After all above steps you are ready to changes the <code>.js</code>, <code>.scss</code> file and watch it reload automatically.</p>
+<h2 id="known-issues">Known Issues</h2>
+<ul>
+<li>Found issue when running <code>gulp</code> and got an error like</li>
+</ul>
+<pre tabindex="0"><code class="language-error" data-lang="error">ERROR :: gulp-git require.extensions.hasownproperty is not a function
+</code></pre><p>you can set the dependencies for <code>require-dir</code> to version <code>0.3.2</code></p>
 
       </span>
     </article>

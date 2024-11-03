@@ -2,39 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Personal Writtings on Tech Blog</title>
-    <link>https://gujarats.github.io/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content in Personal Writtings on Tech Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Nov 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gujarats.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup my own blog using Hugo, sass, and Gulp</title>
+      <link>http://localhost:1313/blog/setup-my-own-blog-using-hugo-sass-and-gulp/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/setup-my-own-blog-using-hugo-sass-and-gulp/</guid>
+      <description>There are several steps to setup this blog so that it is up and running in your local using &lt;code&gt;hugo&lt;/code&gt;, &lt;code&gt;sass&lt;/code&gt;, and &lt;code&gt;gulp&lt;/code&gt;.</description>
+    </item>
+    <item>
+      <title>Reading Other People&#39;s Code</title>
+      <link>http://localhost:1313/blog/reading-other-peoples-code/</link>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/reading-other-peoples-code/</guid>
+      <description>Make it as the journey to the wonderful land, and take your time, don&amp;rsquo;t rush and understand it very well.</description>
+    </item>
     <item>
       <title>Blog Post with Inline Images</title>
-      <link>https://gujarats.github.io/blog/blog-post-with-inline-images/</link>
+      <link>http://localhost:1313/blog/blog-post-with-inline-images/</link>
       <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://gujarats.github.io/blog/blog-post-with-inline-images/</guid>
+      <guid>http://localhost:1313/blog/blog-post-with-inline-images/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     <item>
       <title>Blog Post With Extra Extra Long Title That Keeps On Going</title>
-      <link>https://gujarats.github.io/blog/blog-post-with-extra-extra-long-title-that-keeps-on-going/</link>
+      <link>http://localhost:1313/blog/blog-post-with-extra-extra-long-title-that-keeps-on-going/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://gujarats.github.io/blog/blog-post-with-extra-extra-long-title-that-keeps-on-going/</guid>
+      <guid>http://localhost:1313/blog/blog-post-with-extra-extra-long-title-that-keeps-on-going/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     <item>
-      <title>Blog Post 3</title>
-      <link>https://gujarats.github.io/blog/blog-post-3/</link>
-      <pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://gujarats.github.io/blog/blog-post-3/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
-    </item>
-    <item>
-      <title>Blog Post 4</title>
-      <link>https://gujarats.github.io/blog/blog-post-4/</link>
-      <pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://gujarats.github.io/blog/blog-post-4/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id erat enim. Ut cursus magna sed luctus auctor. Sed eu augue dignissim, lobortis ipsum eu, dictum nisi. Integer varius ex maximus quam lobortis accumsan. Morbi mollis vulputate metus, aliquam feugiat arcu porta a. Quisque id justo ultricies, lacinia elit quis, pulvinar odio. Fusce feugiat at velit vitae lobortis. Nulla fringilla metus et sem mattis posuere. Nulla pellentesque quam sit amet est posuere, tincidunt auctor ligula bibendum. Donec dapibus lacinia nibh, convallis ultrices enim laoreet et.</description>
+      <title>Hard lessons from 4 years in various software companies</title>
+      <link>http://localhost:1313/blog/hard-lessons-from-4-years-in-various-software-companies/</link>
+      <pubDate>Thu, 06 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/hard-lessons-from-4-years-in-various-software-companies/</guid>
+      <description>&lt;p&gt;I have been in various types of companies from early start-up, mid-start-up, and big company. And doing some freelance jobs. with front-end,back-end and also a little bit touching the tech cloud. It is a very exciting journey and yet challenging and also painful.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-i-felt-to-be-software-developer-in-the-industry&#34;&gt;How I felt to be Software Developer in the industry&lt;/h2&gt;&#xA;&lt;p&gt;My honest opinion when becoming a Software Developer is I don&amp;rsquo;t have a life like my friends do who are  pursuing different careers like Lawyer, Accountant, Doctor, Teacher.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
