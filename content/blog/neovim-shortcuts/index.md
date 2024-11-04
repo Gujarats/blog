@@ -86,4 +86,9 @@ This is the shortcuts for this [branch](https://github.com/Gujarats/dotfiles/tre
 
 <leader> currently mapped to <space>
 
-- <leader>cr -> rename variable or function tested in `.lua` files it also rename the other files which calls the global function
+- <leader>cr -> rename variable or function; Tested in `.lua` files it also rename the other files which calls the global function
+- <leader>sr -> open up new window buffer for find and replace using this [plugin](https://github.com/MagicDuck/grug-far.nvim)
+  - type the text to replace with in the input text
+  - to replace all use `\ + r`
+  - to replace specific lines use `\ + l`
+  - open help use `g + ?` other shortcuts also appear on the menu
