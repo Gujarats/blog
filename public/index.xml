@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Personal Writtings on Tech Blog</title>
+    <title>Tech Blog</title>
     <link>https://gujarats.github.io/blog/</link>
-    <description>Recent content in Personal Writtings on Tech Blog</description>
+    <description>Recent content on Tech Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gujarats.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setup my own blog using Hugo, sass, and Gulp</title>
@@ -14,6 +14,13 @@
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       <guid>https://gujarats.github.io/blog/setup-my-own-blog-using-hugo-sass-and-gulp/</guid>
       <description>There are several steps to setup this blog so that it is up and running in your local using &lt;code&gt;hugo&lt;/code&gt;, &lt;code&gt;sass&lt;/code&gt;, and &lt;code&gt;gulp&lt;/code&gt;.</description>
+    </item>
+    <item>
+      <title>My Neovim Shortcuts</title>
+      <link>https://gujarats.github.io/blog/my-neovim-shortcuts/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://gujarats.github.io/blog/my-neovim-shortcuts/</guid>
+      <description>There are lots of shortcuts in Neovim that I personally don&amp;rsquo;t remember like find and replace, rename variable for refactoring.</description>
     </item>
     <item>
       <title>Reading Other People&#39;s Code</title>
@@ -56,6 +63,10 @@
       <pubDate>Thu, 06 Dec 2018 00:00:00 +0000</pubDate>
       <guid>https://gujarats.github.io/blog/hard-lessons-from-4-years-in-various-software-companies/</guid>
       <description>been in various types of companies from early start-up, mid-start-up, and big company. And doing some freelance jobs. with front-end,back-end and also a little bit touching the tech cloud</description>
+    </item>
+  </channel>
+</rss>
+escription>
     </item>
   </channel>
 </rss>
