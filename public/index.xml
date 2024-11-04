@@ -30,6 +30,13 @@
       <description>After a few months of never touching the static site generator, especially Jekyll, now I feel like it is the time for me to get started with Jekyll.</description>
     </item>
     <item>
+      <title>Develop Neovim Plugins</title>
+      <link>https://gujarats.github.io/blog/develop-neovim-plugins/</link>
+      <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://gujarats.github.io/blog/develop-neovim-plugins/</guid>
+      <description>Introduction on how to create your own plugins for neovim.</description>
+    </item>
+    <item>
       <title>Blog Post with Inline Images</title>
       <link>https://gujarats.github.io/blog/blog-post-with-inline-images/</link>
       <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
