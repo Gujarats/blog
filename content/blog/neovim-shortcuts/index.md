@@ -84,5 +84,6 @@ This is the shortcuts for this [branch](https://github.com/Gujarats/dotfiles/tre
 
 ## Refactoring
 
-- find and replace TODO
-- rename current variable TODO
+<leader> currently mapped to <space>
+
+- <leader>cr -> rename variable or function tested in `.lua` files it also rename the other files which calls the global function
