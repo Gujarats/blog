@@ -1,7 +1,7 @@
 ---
 author: "Gujarat Santana"
 date: 2024-11-04
-title: My Neovim Shortcuts
+title: My Neovim/Tmux Shortcuts
 subtitle: This shortcuts is heavily coming from craftzdog
 summary: There are lots of shortcuts in Neovim that I personally don't remember like find and replace, rename variable for refactoring.
 tags:
@@ -23,26 +23,34 @@ This tools I used daily to open lots of terminal
 
 ## Terminal Creation
 
-- `c` -> create new terminal tab
-- `,` -> rename the current terminal tab
-- `x` -> kill the current terminal tab
-- `-` -> create new terminal on the right (current tab)
-- `|` -> create new terminal on the bottom (current tab)
+```
+ `c` -> create new terminal tab
+ `,` -> rename the current terminal tab
+ `x` -> kill the current terminal tab
+ `-` -> create new terminal on the right (current tab)
+ `|` -> create new terminal on the bottom (current tab)
+
+```
 
 ## Cursor Movement
 
 For the current tab
 
-- `j` -> move up
-- `k` -> move down
-- `l` -> move right
-- `h` -> move left
+```
+ `j` -> move up
+ `k` -> move down
+ `l` -> move right
+ `h` -> move left
+```
 
 For tab movement
 
-- `n` -> next tab
-- `p` -> previous tab
-- `0-9` -> choose index tab
+```
+ `n` -> next tab
+ `p` -> previous tab
+ `0-9` -> choose index tab
+
+```
 
 ## Reszie Window
 
@@ -54,12 +62,25 @@ This is the shortcuts for this [branch](https://github.com/Gujarats/dotfiles/tre
 
 ## Exploration
 
+```
 - <space> + e -> open up folder explorer root project dir
 - sf -> open up file browser in the current opened dir
   - c -> create new file or dir
   - a -> enter filename to filter files
 - ;f -> find files by name
 - ;r -> search text int the project dir
+
+```
+
+## Editor
+
+```
+ te + enter -> create new tab
+ <tab> and <shift><tab> -> switching tabs
+ sv -> split window to the right
+ ss -> split window to bottom
+ Many basic things which I don't cover
+```
 
 ## Refactoring
 

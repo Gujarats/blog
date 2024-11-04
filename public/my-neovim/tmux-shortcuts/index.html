@@ -51,22 +51,22 @@
 
 
 
-<meta property="og:url" content="http://localhost:1313/blog/starting-my-jekyll-again/">
+<meta property="og:url" content="http://localhost:1313/blog/my-neovim/tmux-shortcuts/">
   <meta property="og:site_name" content="Tech Blog">
-  <meta property="og:title" content="Starting My Jekyll Again">
-  <meta property="og:description" content="After a few months of never touching the static site generator, especially Jekyll, now I feel like it is the time for me to get started with Jekyll.">
+  <meta property="og:title" content="My Neovim/Tmux Shortcuts">
+  <meta property="og:description" content="There are lots of shortcuts in Neovim that I personally don’t remember like find and replace, rename variable for refactoring.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2024-11-03T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-11-03T00:00:00+00:00">
+    <meta property="article:published_time" content="2024-11-04T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-11-04T00:00:00+00:00">
     <meta property="og:image" content="http://localhost:1313/blog/thumbnail.png">
 
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/blog/thumbnail.png">
-  <meta name="twitter:title" content="Starting My Jekyll Again">
-  <meta name="twitter:description" content="After a few months of never touching the static site generator, especially Jekyll, now I feel like it is the time for me to get started with Jekyll.">
+  <meta name="twitter:title" content="My Neovim/Tmux Shortcuts">
+  <meta name="twitter:description" content="There are lots of shortcuts in Neovim that I personally don’t remember like find and replace, rename variable for refactoring.">
 
 
 <script>
@@ -152,90 +152,66 @@
   <div class="justify-left mx-auto mt-8 flex max-w-screen-md px-4">
     <article>
       <h1 class="text-4xl font-extrabold text-slate-700 dark:text-slate-200">
-        Starting My Jekyll Again
+        My Neovim/Tmux Shortcuts
       </h1>
       <h2 class="mt-4 text-2xl text-slate-500 dark:text-slate-400">
-        
+        This shortcuts is heavily coming from craftzdog
       </h2>
       <div class="mb-4 mt-2 text-sm text-slate-500 dark:text-slate-400">
-        Nov 3, 2024 - 2 minute read
+        Nov 4, 2024 - 2 minute read
       </div>
 
       
-        
-        <div class="flex flex-col">
-          <img class="mt-4 h-full w-full object-cover" src="/blog/jekyll_logo_hu10981822012273865891.webp" alt="feature image" height="340" width="736" />
-          
-            <span class="mb-4 mt-1 text-center text-sm text-slate-700 dark:text-slate-200">
-              wikipedia
-            </span>
-          
-        </div>
-      
 
-      
-        <aside class="flex flex-col mt-4 mb-8">
-          <h2 class="text-2xl text-slate-500 dark:text-slate-400 mb-2">
-            Table of Content
-          </h2>
-          <div class="text-lg underline text-slate-700 dark:text-slate-200">
-            <nav>
-                <ul class="list-inside">
-                  <li class="hover:text-slate-500 hover:dark:text-slate-400"><a href="#goals"> Goals</a></li>
-                </ul>
-                <ul class="list-inside">
-                  <li class="hover:text-slate-500 hover:dark:text-slate-400"><a href="#tools"> Tools</a></li>
-                </ul>
-                <ul class="list-inside">
-                  <li class="hover:text-slate-500 hover:dark:text-slate-400"><a href="#how-i-start-using-jekyll"> How I start using Jekyll</a></li>
-                </ul>
-                <ul class="list-inside">
-                  <li class="hover:text-slate-500 hover:dark:text-slate-400"><a href="#deployment"> Deployment</a></li>
-                </ul>
-            </nav>
-          </div>
-        </aside>
       
 
       <span class="prose prose-slate break-words text-lg text-slate-700 dark:prose-invert prose-pre:max-w-[90vw] md:prose-pre:max-w-screen-md dark:text-slate-200">
-        <p>After a few months of never touching the static site generator, especially Jekyll, now I feel like it is the time for me to get started with Jekyll, and honestly this is my first time using the command line for Jekyll.</p>
-<h1 id="goals">Goals</h1>
-<p>It’s very simple goal :</p>
-<ol>
-<li>Has profile picture shown</li>
-<li>Has summary on the experience shown</li>
-</ol>
-<p>In the current repository it only has 1 MD file that contains my experiences, but I’ve no idea on how to customize the theme thus I like to dig a little bit on how to use Jekyll.</p>
-<h1 id="tools">Tools</h1>
-<p>Some tools that I found for the installation and prerequisite in order to make use of jekyll.</p>
-<p>Here what I installed on my local :</p>
-<ol>
-<li>
-<p>Installing <strong>rbenv</strong> <a href="https://github.com/rbenv/rbenv">https://github.com/rbenv/rbenv</a> - installing this tool for easier management version of ruby in the future.</p>
-</li>
-<li>
-<p>Installing ruby with rbenv</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ rbenv install 3.3.5
-</span></span><span style="display:flex;"><span>$ rbenv global 3.3.5
-</span></span><span style="display:flex;"><span>$ ruby –version
-</span></span></code></pre></div></li>
-<li>
-<p>Installing jekyll</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>gem install jekyll
-</span></span></code></pre></div></li>
-</ol>
-<p>The installation should be done and <code>jekyll</code> is ready to use now.</p>
-<h1 id="how-i-start-using-jekyll">How I start using Jekyll</h1>
-<ol>
-<li>On the current repository create new branch</li>
-<li>Delete everything except .git file</li>
-<li>Following the guide from <a href="https://jekyllrb.com/docs/step-by-step/01-setup/">this steps</a> there should be 10 steps (2024 Nov)</li>
-<li>Copy paste the js,css,and images from previous branch and making my adjustment</li>
-<li>Copy the content in this case my CV in md file</li>
-<li>Deploy</li>
-</ol>
-<h1 id="deployment">Deployment</h1>
-<p>I use static deployment on github pages because I’m going to use different types of static site generator in the future such as hugo or even gatsby or perhaps nextJS. The <code>.github/workflows/static.yml</code> is used for working example for my next project.</p>
+        <p>There are lots of shortcuts in Neovim that I personally don&rsquo;t remember like find and replace, rename variable for refactoring. Due to jumping around projct like Java and other project I sometimes switching between code editor and forgot about the shortcuts, this will help me at least in the future for my personal reference.</p>
+<p>My <a href="https://github.com/Gujarats/dotfiles">dotfiles </a></p>
+<p>Please note that the shortcuts has been customize to my personal preference, so this is based on the <code>dotfiles</code> above.</p>
+<h1 id="tmux">tmux</h1>
+<p>This tools I used daily to open lots of terminal
+<code>ctrl + s</code> &ndash;&gt; this is the prefix shortcuts for all of my tmux</p>
+<h2 id="terminal-creation">Terminal Creation</h2>
+<pre tabindex="0"><code> `c` -&gt; create new terminal tab
+ `,` -&gt; rename the current terminal tab
+ `x` -&gt; kill the current terminal tab
+ `-` -&gt; create new terminal on the right (current tab)
+ `|` -&gt; create new terminal on the bottom (current tab)
+</code></pre><h2 id="cursor-movement">Cursor Movement</h2>
+<p>For the current tab</p>
+<pre tabindex="0"><code> `j` -&gt; move up
+ `k` -&gt; move down
+ `l` -&gt; move right
+ `h` -&gt; move left
+</code></pre><p>For tab movement</p>
+<pre tabindex="0"><code> `n` -&gt; next tab
+ `p` -&gt; previous tab
+ `0-9` -&gt; choose index tab
+</code></pre><h2 id="reszie-window">Reszie Window</h2>
+<ul>
+<li>after prefix hold <code>ctrl</code> and press arrow up,down,left,right keyboard</li>
+</ul>
+<h1 id="neovim">NeoVim</h1>
+<p>This is the shortcuts for this <a href="https://github.com/Gujarats/dotfiles/tree/nvim-v0.10.2">branch</a></p>
+<h2 id="exploration">Exploration</h2>
+<pre tabindex="0"><code>- &lt;space&gt; + e -&gt; open up folder explorer root project dir
+- sf -&gt; open up file browser in the current opened dir
+  - c -&gt; create new file or dir
+  - a -&gt; enter filename to filter files
+- ;f -&gt; find files by name
+- ;r -&gt; search text int the project dir
+</code></pre><h2 id="editor">Editor</h2>
+<pre tabindex="0"><code> te + enter -&gt; create new tab
+ &lt;tab&gt; and &lt;shift&gt;&lt;tab&gt; -&gt; switching tabs
+ sv -&gt; split window to the right
+ ss -&gt; split window to bottom
+ Many basic things which I don&#39;t cover
+</code></pre><h2 id="refactoring">Refactoring</h2>
+<ul>
+<li>find and replace TODO</li>
+<li>rename current variable TODO</li>
+</ul>
 
       </span>
     </article>
