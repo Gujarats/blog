@@ -85,3 +85,7 @@ if you want to search something in the current buffer (the current open file) th
 ```
 
 it should open the list of the textToSearch in the bottom
+
+## Recap
+
+Check above youtube video and learn more from there, thank you for reading
