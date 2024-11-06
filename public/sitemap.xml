@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://gujarats.github.io/blog/setup-my-own-blog-using-hugo-sass-and-gulp/</loc>
+    <loc>http://localhost:61396/blog/setup-my-own-blog-using-hugo-sass-and-gulp/</loc>
     <lastmod>2017-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gujarats.github.io/blog/my-neovim-and-tmux-shortcuts/</loc>
+    <loc>http://localhost:61396/blog/my-neovim-and-tmux-shortcuts/</loc>
     <lastmod>2024-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gujarats.github.io/blog/</loc>
+    <loc>http://localhost:61396/blog/</loc>
     <lastmod>2024-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gujarats.github.io/blog/</loc>
+    <loc>http://localhost:61396/blog/</loc>
     <lastmod>2024-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gujarats.github.io/blog/reading-other-peoples-code/</loc>
+    <loc>http://localhost:61396/blog/reading-other-peoples-code/</loc>
     <lastmod>2024-11-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gujarats.github.io/blog/starting-my-jekyll-again/</loc>
+    <loc>http://localhost:61396/blog/starting-my-jekyll-again/</loc>
     <lastmod>2024-11-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gujarats.github.io/blog/develop-neovim-plugins/</loc>
+    <loc>http://localhost:61396/blog/develop-neovim-plugins/</loc>
     <lastmod>2024-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gujarats.github.io/blog/example-on-using-this-theme/</loc>
+    <loc>http://localhost:61396/blog/example-on-using-this-theme/</loc>
     <lastmod>2023-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gujarats.github.io/blog/blog-post-with-extra-extra-long-title-that-keeps-on-going/</loc>
+    <loc>http://localhost:61396/blog/blog-post-with-extra-extra-long-title-that-keeps-on-going/</loc>
     <lastmod>2023-11-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gujarats.github.io/blog/hard-lessons-from-4-years-in-various-software-companies/</loc>
+    <loc>http://localhost:61396/blog/hard-lessons-from-4-years-in-various-software-companies/</loc>
     <lastmod>2018-12-06T00:00:00+00:00</lastmod>
   </url>
 </urlset>
