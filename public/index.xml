@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Personal Writtings on Tech Blog</title>
-    <link>http://localhost:61396/blog/</link>
+    <link>https://gujarats.github.io/blog/</link>
     <description>Recent content in Personal Writtings on Tech Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:61396/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gujarats.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setup my own blog using Hugo, sass, and Gulp</title>
-      <link>http://localhost:61396/blog/setup-my-own-blog-using-hugo-sass-and-gulp/</link>
+      <link>https://gujarats.github.io/blog/setup-my-own-blog-using-hugo-sass-and-gulp/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61396/blog/setup-my-own-blog-using-hugo-sass-and-gulp/</guid>
+      <guid>https://gujarats.github.io/blog/setup-my-own-blog-using-hugo-sass-and-gulp/</guid>
       <description>There are several steps to setup this blog so that it is up and running in your local using &lt;code&gt;hugo&lt;/code&gt;, &lt;code&gt;sass&lt;/code&gt;, and &lt;code&gt;gulp&lt;/code&gt;.</description>
     </item>
     <item>
       <title>My Neovim and Tmux Shortcuts</title>
-      <link>http://localhost:61396/blog/my-neovim-and-tmux-shortcuts/</link>
+      <link>https://gujarats.github.io/blog/my-neovim-and-tmux-shortcuts/</link>
       <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61396/blog/my-neovim-and-tmux-shortcuts/</guid>
+      <guid>https://gujarats.github.io/blog/my-neovim-and-tmux-shortcuts/</guid>
       <description>There are lots of shortcuts in Neovim that I personally don&amp;rsquo;t remember like find and replace, rename variable for refactoring.</description>
     </item>
     <item>
       <title>Reading Other People&#39;s Code</title>
-      <link>http://localhost:61396/blog/reading-other-peoples-code/</link>
+      <link>https://gujarats.github.io/blog/reading-other-peoples-code/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61396/blog/reading-other-peoples-code/</guid>
+      <guid>https://gujarats.github.io/blog/reading-other-peoples-code/</guid>
       <description>Make it as the journey to the wonderful land, and take your time, don&amp;rsquo;t rush and understand it very well.</description>
     </item>
     <item>
       <title>Starting My Jekyll Again</title>
-      <link>http://localhost:61396/blog/starting-my-jekyll-again/</link>
+      <link>https://gujarats.github.io/blog/starting-my-jekyll-again/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61396/blog/starting-my-jekyll-again/</guid>
+      <guid>https://gujarats.github.io/blog/starting-my-jekyll-again/</guid>
       <description>After a few months of never touching the static site generator, especially Jekyll, now I feel like it is the time for me to get started with Jekyll.</description>
     </item>
     <item>
       <title>Develop Neovim Plugins</title>
-      <link>http://localhost:61396/blog/develop-neovim-plugins/</link>
+      <link>https://gujarats.github.io/blog/develop-neovim-plugins/</link>
       <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61396/blog/develop-neovim-plugins/</guid>
+      <guid>https://gujarats.github.io/blog/develop-neovim-plugins/</guid>
       <description>Introduction on how to create your own plugins for neovim.</description>
     </item>
     <item>
       <title>Example on Using this Theme</title>
-      <link>http://localhost:61396/blog/example-on-using-this-theme/</link>
+      <link>https://gujarats.github.io/blog/example-on-using-this-theme/</link>
       <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61396/blog/example-on-using-this-theme/</guid>
+      <guid>https://gujarats.github.io/blog/example-on-using-this-theme/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     <item>
       <title>Blog Post With Extra Extra Long Title That Keeps On Going</title>
-      <link>http://localhost:61396/blog/blog-post-with-extra-extra-long-title-that-keeps-on-going/</link>
+      <link>https://gujarats.github.io/blog/blog-post-with-extra-extra-long-title-that-keeps-on-going/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61396/blog/blog-post-with-extra-extra-long-title-that-keeps-on-going/</guid>
+      <guid>https://gujarats.github.io/blog/blog-post-with-extra-extra-long-title-that-keeps-on-going/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     <item>
       <title>Hard lessons from 4 years in various software companies</title>
-      <link>http://localhost:61396/blog/hard-lessons-from-4-years-in-various-software-companies/</link>
+      <link>https://gujarats.github.io/blog/hard-lessons-from-4-years-in-various-software-companies/</link>
       <pubDate>Thu, 06 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61396/blog/hard-lessons-from-4-years-in-various-software-companies/</guid>
+      <guid>https://gujarats.github.io/blog/hard-lessons-from-4-years-in-various-software-companies/</guid>
       <description>been in various types of companies from early start-up, mid-start-up, and big company. And doing some freelance jobs. with front-end,back-end and also a little bit touching the tech cloud</description>
     </item>
   </channel>
