@@ -83,6 +83,13 @@ This is the shortcuts for this [branch](https://github.com/Gujarats/dotfiles/tre
  Many basic things which I don't cover
 ```
 
+#### html
+
+```
+zc -> close current tag
+l -> open current closed tag
+```
+
 ### Refactoring
 
 `<leader>` currently mapped to `<space>`
