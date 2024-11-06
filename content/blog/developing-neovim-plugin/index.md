@@ -7,13 +7,13 @@ tags:
   - editor
 categories:
   - editor
+toc: true
 ---
-
-Introduction on how to create your own plugins for neovim. This writing is referring to the youtube video from here [Writing Plugins - It's Never Been Easier (NeovimConf 2022)](https://www.youtube.com/watch?v=PdaObkGazoU)
 
 ## Notes
 
 This blog assumes that you have familiar with Lua programming language.
+Introduction on how to create your own plugins for neovim. This writing is referring to the youtube video from here [Writing Plugins - It's Never Been Easier (NeovimConf 2022)](https://www.youtube.com/watch?v=PdaObkGazoU)
 
 ```php
 $ -> this is the sign for executing the command in your terminal copy-past exclude the sign
@@ -21,7 +21,7 @@ $ -> this is the sign for executing the command in your terminal copy-past exclu
 -- -> this is comment sigh to explain the code or command
 ```
 
-# Hello World Plugin
+## Hello World Plugin
 
 ```shell
 $ mkdir first-plugin -- you can create it anywhere
@@ -54,7 +54,7 @@ Now in order to call the plugin above we need to open the file with neovim also 
 :lua require('NeovimConf').Todo()
 ```
 
-## Override Cache Behaviour
+### Override Cache Behaviour
 
 When you change the print value and calling the Todo() function again it will print the previous value in order to change this we need to add some code in MYVIMRC (this is your init.lua)
 
@@ -75,7 +75,7 @@ end, {})
 refresh the MYVIMRC using `:source %` or `:so %`.
 Now comeback to the plugin NeovimConf and call the Test using `:Test` this should print the current value of string in print() function.
 
-## Nice to Know
+### Nice to Know
 
 if you want to search something in the current buffer (the current open file) then you can do this
 
@@ -86,6 +86,6 @@ if you want to search something in the current buffer (the current open file) th
 
 it should open the list of the textToSearch in the bottom
 
-## Recap
+### Recap
 
 Check above youtube video and learn more from there, thank you for reading

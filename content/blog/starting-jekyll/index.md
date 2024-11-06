@@ -10,7 +10,7 @@ toc: true
 
 After a few months of never touching the static site generator, especially Jekyll, now I feel like it is the time for me to get started with Jekyll, and honestly this is my first time using the command line for Jekyll.
 
-# Goals
+## Goals
 
 It’s very simple goal :
 
@@ -19,7 +19,7 @@ It’s very simple goal :
 
 In the current repository it only has 1 MD file that contains my experiences, but I’ve no idea on how to customize the theme thus I like to dig a little bit on how to use Jekyll.
 
-# Tools
+## Tools
 
 Some tools that I found for the installation and prerequisite in order to make use of jekyll.
 
@@ -44,7 +44,7 @@ Here what I installed on my local :
 
 The installation should be done and `jekyll` is ready to use now.
 
-# How I start using Jekyll
+## How I start using Jekyll
 
 1. On the current repository create new branch
 2. Delete everything except .git file
@@ -53,6 +53,6 @@ The installation should be done and `jekyll` is ready to use now.
 5. Copy the content in this case my CV in md file
 6. Deploy
 
-# Deployment
+## Deployment
 
 I use static deployment on github pages because I’m going to use different types of static site generator in the future such as hugo or even gatsby or perhaps nextJS. The `.github/workflows/static.yml` is used for working example for my next project.

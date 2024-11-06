@@ -1,4 +1,4 @@
-<!doctype html><html lang="en-us">
+<!doctype html><html lang="en-us" class="[--scroll-mt:9.875rem] [scrollbar-gutter:stable] lg:[--scroll-mt:6.3125rem]">
   <head>
     
 <meta charset="utf-8" />
@@ -29,7 +29,7 @@
 
 
 
-<link type="text/css" rel="stylesheet" href="/blog/css/main.bundle.min.955b22a3fcff20511a11d9c7fdac7dd57e8293ee16e4d4ca0d6ab737f4895c3017582739cfd1f17a7c3feae23b42a8f4b01d7052fa2bc03a1430fa0669bf2d60.css" integrity="sha512-lVsio/z/IFEaEdnH/ax91X6Ck&#43;4W5NTKDWq3N/SJXDAXWCc5z9Hxenw/6uI7Qqj0sB1wUvorwDoUMPoGab8tYA==" />
+<link type="text/css" rel="stylesheet" href="/blog/css/main.bundle.min.af2ebc450931eb1b70bf3d051e0a1c7efd3ae5226ac3109210cab1871a885d44d394c8ceb6ab7ee2d6236968daa7f9452e3d3583c88da32058f1f30d89e1a504.css" integrity="sha512-ry68RQkx6xtwvz0FHgocfv065SJqwxCSEMqxhxqIXUTTlMjOtqt&#43;4tYjaWjap/lFLj01g8iNoyBY8fMNieGlBA==" />
 
 
 
@@ -79,9 +79,11 @@
 </script>
 
   </head>
-  <body class="flex h-screen flex-col justify-between bg-neutral-100 dark:bg-neutral-800">
+
+  <body class="bg-neutral-100 antialiased transition-colors duration-500 dark:border-slate-50/[0.06] dark:bg-neutral-800">
     <div>
-      <header class="sticky top-0 z-10 bg-neutral-100 dark:bg-neutral-800">
+      <header
+        class="supports-backdrop-blur:bg-white/95 sticky top-0 z-40 w-full flex-none bg-neutral-100 backdrop-blur transition-colors duration-500 dark:border-slate-50/[0.06] dark:bg-neutral-800 lg:z-50 lg:border-b lg:border-slate-900/10">
         
 
 
@@ -99,11 +101,11 @@
   <div class="flex flex-row space-x-8">
     <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
       
-        <a href="/blog/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        <a href="/blog/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
           Blog
         </a>
       
-        <a href="https://gujarats.github.io/cv" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        <a href="https://gujarats.github.io/cv" class="px-3 py-2 text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
           CV
         </a>
       
@@ -128,11 +130,11 @@
 <section id="mobile-menu" class="absolute hidden w-full origin-top animate-open-menu flex-col justify-center bg-neutral-100 text-4xl dark:bg-neutral-800">
   <nav class="flex min-h-screen flex-col items-center py-8" aria-label="mobile">
     
-      <a href="/blog/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+      <a href="/blog/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
         Blog
       </a>
     
-      <a href="https://gujarats.github.io/cv" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+      <a href="https://gujarats.github.io/cv" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
         CV
       </a>
     
@@ -140,39 +142,71 @@
 </section>
 
       </header>
+      
       <main>
         
   
   
   
   
+
+
   
-
-
-  <div class="justify-left mx-auto mt-8 flex max-w-screen-md px-4">
-    <article>
-      <h1 class="text-4xl font-extrabold text-slate-700 dark:text-slate-200">
-        Develop Neovim Plugins
-      </h1>
-      <h2 class="mt-4 text-2xl text-slate-500 dark:text-slate-400">
+  <div class="max-w-8xl mx-auto justify-evenly px-4 sm:px-6 md:px-8">
+    
+    <div class="invisible fixed inset-0 left-[max(0px,calc(50%-45rem))] right-auto top-[3.8125rem] z-20 hidden w-[19rem] overflow-y-auto pb-10 pl-8 pr-6 lg:block">
+      <div class="py-5">
         
-      </h2>
-      <div class="mb-4 mt-2 text-sm text-slate-500 dark:text-slate-400">
-        Oct 6, 2024 - 2 minute read
+
+  <div class="px-8">
+    <div class="py-5">
+      <h2 class="mb-2 text-2xl text-slate-500 dark:text-slate-400">Table of Content</h2>
+      <div class="text-lg text-slate-700 dark:text-slate-200">
+        <nav>
+            <ul class="list-inside">
+                <li class="hover:text-slate-500 hover:dark:text-slate-400"><a href="#notes">Notes</a></li>
+                <li class="hover:text-slate-500 hover:dark:text-slate-400"><a href="#hello-world-plugin">Hello World Plugin</a></li>
+                  <ul class="list-inside list-disc">
+                      <li class="ml-4 hover:text-slate-500 hover:dark:text-slate-400"><a href="#override-cache-behaviour">Override Cache Behaviour</a></li>
+                      <li class="ml-4 hover:text-slate-500 hover:dark:text-slate-400"><a href="#nice-to-know">Nice to Know</a></li>
+                      <li class="ml-4 hover:text-slate-500 hover:dark:text-slate-400"><a href="#recap">Recap</a></li>
+                  </ul>
+            </ul>
+        </nav>
       </div>
+    </div>
+  </div>
 
+
+      </div>
+    </div>
+    
+    <div class="lg:pl-[19.5rem]">
       
+      <div class="mx-auto max-w-3xl pt-10 xl:ml-0 xl:mr-[15.5rem] xl:max-w-none xl:pr-16">
+        
+        <div class="dark:prose-dark prose prose-slate relative z-20 mt-8">
+          
+          <article>
+            <h1 class="text-4xl font-extrabold text-slate-700 dark:text-slate-200">
+              Develop Neovim Plugins
+            </h1>
+            <h2 class="mt-4 text-2xl text-slate-500 dark:text-slate-400">
+              
+            </h2>
+            <div class="mb-4 mt-2 text-sm text-slate-500 dark:text-slate-400">
+              Oct 6, 2024 - 2 minute read
+            </div>
 
-      
-
-      <span class="prose prose-slate break-words text-lg text-slate-700 dark:prose-invert prose-pre:max-w-[90vw] md:prose-pre:max-w-screen-md dark:text-slate-200">
-        <p>Introduction on how to create your own plugins for neovim. This writing is referring to the youtube video from here <a href="https://www.youtube.com/watch?v=PdaObkGazoU">Writing Plugins - It&rsquo;s Never Been Easier (NeovimConf 2022)</a></p>
-<h2 id="notes">Notes</h2>
-<p>This blog assumes that you have familiar with Lua programming language.</p>
+            
+            <span class="prose prose-slate break-words text-lg text-slate-700 dark:prose-invert prose-pre:max-w-[90vw] dark:text-slate-200 md:prose-pre:max-w-screen-md">
+              <h2 id="notes">Notes</h2>
+<p>This blog assumes that you have familiar with Lua programming language.
+Introduction on how to create your own plugins for neovim. This writing is referring to the youtube video from here <a href="https://www.youtube.com/watch?v=PdaObkGazoU">Writing Plugins - It&rsquo;s Never Been Easier (NeovimConf 2022)</a></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">$</span> <span style="color:#f92672">-&gt;</span> <span style="color:#a6e22e">this</span> <span style="color:#a6e22e">is</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">sign</span> <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">executing</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">command</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">your</span> <span style="color:#a6e22e">terminal</span> <span style="color:#a6e22e">copy</span><span style="color:#f92672">-</span><span style="color:#a6e22e">past</span> <span style="color:#a6e22e">exclude</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">sign</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">:</span> <span style="color:#f92672">-&gt;</span> <span style="color:#a6e22e">this</span> <span style="color:#a6e22e">is</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">sign</span> <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">executing</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">command</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">your</span> <span style="color:#a6e22e">neovim</span>, <span style="color:#a6e22e">type</span> <span style="color:#a6e22e">all</span> <span style="color:#a6e22e">command</span> <span style="color:#a6e22e">including</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">sign</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">--</span> <span style="color:#f92672">-&gt;</span> <span style="color:#a6e22e">this</span> <span style="color:#a6e22e">is</span> <span style="color:#a6e22e">comment</span> <span style="color:#a6e22e">sigh</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">explain</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">code</span> <span style="color:#66d9ef">or</span> <span style="color:#a6e22e">command</span>
-</span></span></code></pre></div><h1 id="hello-world-plugin">Hello World Plugin</h1>
+</span></span></code></pre></div><h2 id="hello-world-plugin">Hello World Plugin</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ mkdir first-plugin -- you can create it anywhere
 </span></span><span style="display:flex;"><span>$ cd first-plugin
 </span></span><span style="display:flex;"><span>$ touch NeovimConf.lua
@@ -189,7 +223,7 @@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ touch stylua.toml -- create this in the current dir and leave it empty
 </span></span></code></pre></div><p>Now in order to call the plugin above we need to open the file with neovim also don&rsquo;t forget about the additional arguments <code>nvim --cmd &quot;set rtp+-.&quot; NeovimConf.lua</code>.</p>
 <pre tabindex="0"><code class="language-neovim" data-lang="neovim">:lua require(&#39;NeovimConf&#39;).Todo()
-</code></pre><h2 id="override-cache-behaviour">Override Cache Behaviour</h2>
+</code></pre><h3 id="override-cache-behaviour">Override Cache Behaviour</h3>
 <p>When you change the print value and calling the Todo() function again it will print the previous value in order to change this we need to add some code in MYVIMRC (this is your init.lua)</p>
 <pre tabindex="0"><code class="language-neovim" data-lang="neovim">:e $MYVIMRC -- this will open the init.lua
 </code></pre><p>And insert these code</p>
@@ -200,22 +234,53 @@
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>, {})
 </span></span></code></pre></div><p>refresh the MYVIMRC using <code>:source %</code> or <code>:so %</code>.
 Now comeback to the plugin NeovimConf and call the Test using <code>:Test</code> this should print the current value of string in print() function.</p>
-<h2 id="nice-to-know">Nice to Know</h2>
+<h3 id="nice-to-know">Nice to Know</h3>
 <p>if you want to search something in the current buffer (the current open file) then you can do this</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span>:<span style="color:#a6e22e">vimgrep</span> <span style="color:#a6e22e">textToSearch</span> %
 </span></span><span style="display:flex;"><span>:<span style="color:#a6e22e">copen</span>
 </span></span></code></pre></div><p>it should open the list of the textToSearch in the bottom</p>
-<h2 id="recap">Recap</h2>
+<h3 id="recap">Recap</h3>
 <p>Check above youtube video and learn more from there, thank you for reading</p>
 
-      </span>
-    </article>
+            </span>
+          </article>
+        </div>
+        
+        <div class="fixed bottom-0 right-[max(0px,calc(50%-45rem))] top-[3.8125rem] z-20 hidden w-[19.5rem] overflow-y-auto py-10 xl:block">
+          
+
+  <div class="px-8">
+    <div class="py-5">
+      <h2 class="mb-2 text-2xl text-slate-500 dark:text-slate-400">Table of Content</h2>
+      <div class="text-lg text-slate-700 dark:text-slate-200">
+        <nav>
+            <ul class="list-inside">
+                <li class="hover:text-slate-500 hover:dark:text-slate-400"><a href="#notes">Notes</a></li>
+                <li class="hover:text-slate-500 hover:dark:text-slate-400"><a href="#hello-world-plugin">Hello World Plugin</a></li>
+                  <ul class="list-inside list-disc">
+                      <li class="ml-4 hover:text-slate-500 hover:dark:text-slate-400"><a href="#override-cache-behaviour">Override Cache Behaviour</a></li>
+                      <li class="ml-4 hover:text-slate-500 hover:dark:text-slate-400"><a href="#nice-to-know">Nice to Know</a></li>
+                      <li class="ml-4 hover:text-slate-500 hover:dark:text-slate-400"><a href="#recap">Recap</a></li>
+                  </ul>
+            </ul>
+        </nav>
+      </div>
+    </div>
   </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mx-auto mt-8 flex max-w-screen-md justify-evenly px-4"></div>
 
       </main>
     </div>
-    <footer>
-      <div class="flex flex-col justify-center p-10">
+  </body>
+  <footer>
+    <div class="flex flex-col justify-center p-10">
   
   <p class="text-center text-slate-700 dark:text-slate-400">
     &copy;
@@ -232,6 +297,5 @@ Now comeback to the plugin NeovimConf and call the Test using <code>:Test</code>
   </p>
 </div>
 
-    </footer>
-  </body>
+  </footer>
 </html>

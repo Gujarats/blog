@@ -9,9 +9,10 @@ tags:
 categories:
   - web
 weight: 10
+toc: true
 ---
 
-# Deprecated
+## Deprecated
 
 This post was very old and I abandoned them please refer to new post here
 
@@ -83,4 +84,3 @@ ERROR :: gulp-git require.extensions.hasownproperty is not a function
 ```
 
 you can set the dependencies for `require-dir` to version `0.3.2`
-

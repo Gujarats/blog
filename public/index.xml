@@ -16,10 +16,10 @@
       <description>There are several steps to setup this blog so that it is up and running in your local using &lt;code&gt;hugo&lt;/code&gt;, &lt;code&gt;sass&lt;/code&gt;, and &lt;code&gt;gulp&lt;/code&gt;.</description>
     </item>
     <item>
-      <title>My Neovim/Tmux Shortcuts</title>
-      <link>https://gujarats.github.io/blog/my-neovim/tmux-shortcuts/</link>
+      <title>My Neovim and Tmux Shortcuts</title>
+      <link>https://gujarats.github.io/blog/my-neovim-and-tmux-shortcuts/</link>
       <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://gujarats.github.io/blog/my-neovim/tmux-shortcuts/</guid>
+      <guid>https://gujarats.github.io/blog/my-neovim-and-tmux-shortcuts/</guid>
       <description>There are lots of shortcuts in Neovim that I personally don&amp;rsquo;t remember like find and replace, rename variable for refactoring.</description>
     </item>
     <item>
@@ -44,10 +44,10 @@
       <description>Introduction on how to create your own plugins for neovim.</description>
     </item>
     <item>
-      <title>Blog Post with Inline Images</title>
-      <link>https://gujarats.github.io/blog/blog-post-with-inline-images/</link>
+      <title>Example on Using this Theme</title>
+      <link>https://gujarats.github.io/blog/example-on-using-this-theme/</link>
       <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://gujarats.github.io/blog/blog-post-with-inline-images/</guid>
+      <guid>https://gujarats.github.io/blog/example-on-using-this-theme/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     <item>

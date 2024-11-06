@@ -1,4 +1,4 @@
-<!doctype html><html lang="en-us">
+<!doctype html><html lang="en-us" class="[--scroll-mt:9.875rem] [scrollbar-gutter:stable] lg:[--scroll-mt:6.3125rem]">
   <head>
     
 <meta charset="utf-8" />
@@ -29,7 +29,7 @@
 
 
 
-<link type="text/css" rel="stylesheet" href="/blog/css/main.bundle.min.955b22a3fcff20511a11d9c7fdac7dd57e8293ee16e4d4ca0d6ab737f4895c3017582739cfd1f17a7c3feae23b42a8f4b01d7052fa2bc03a1430fa0669bf2d60.css" integrity="sha512-lVsio/z/IFEaEdnH/ax91X6Ck&#43;4W5NTKDWq3N/SJXDAXWCc5z9Hxenw/6uI7Qqj0sB1wUvorwDoUMPoGab8tYA==" />
+<link type="text/css" rel="stylesheet" href="/blog/css/main.bundle.min.af2ebc450931eb1b70bf3d051e0a1c7efd3ae5226ac3109210cab1871a885d44d394c8ceb6ab7ee2d6236968daa7f9452e3d3583c88da32058f1f30d89e1a504.css" integrity="sha512-ry68RQkx6xtwvz0FHgocfv065SJqwxCSEMqxhxqIXUTTlMjOtqt&#43;4tYjaWjap/lFLj01g8iNoyBY8fMNieGlBA==" />
 
 
 
@@ -79,9 +79,11 @@
 </script>
 
   </head>
-  <body class="flex h-screen flex-col justify-between bg-neutral-100 dark:bg-neutral-800">
+
+  <body class="bg-neutral-100 antialiased transition-colors duration-500 dark:border-slate-50/[0.06] dark:bg-neutral-800">
     <div>
-      <header class="sticky top-0 z-10 bg-neutral-100 dark:bg-neutral-800">
+      <header
+        class="supports-backdrop-blur:bg-white/95 sticky top-0 z-40 w-full flex-none bg-neutral-100 backdrop-blur transition-colors duration-500 dark:border-slate-50/[0.06] dark:bg-neutral-800 lg:z-50 lg:border-b lg:border-slate-900/10">
         
 
 
@@ -99,11 +101,11 @@
   <div class="flex flex-row space-x-8">
     <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
       
-        <a href="/blog/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        <a href="/blog/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
           Blog
         </a>
       
-        <a href="https://gujarats.github.io/cv" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        <a href="https://gujarats.github.io/cv" class="px-3 py-2 text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
           CV
         </a>
       
@@ -128,11 +130,11 @@
 <section id="mobile-menu" class="absolute hidden w-full origin-top animate-open-menu flex-col justify-center bg-neutral-100 text-4xl dark:bg-neutral-800">
   <nav class="flex min-h-screen flex-col items-center py-8" aria-label="mobile">
     
-      <a href="/blog/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+      <a href="/blog/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
         Blog
       </a>
     
-      <a href="https://gujarats.github.io/cv" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+      <a href="https://gujarats.github.io/cv" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
         CV
       </a>
     
@@ -140,39 +142,68 @@
 </section>
 
       </header>
+      
       <main>
         
   
   
   
   
+
+
   
+  <div class="max-w-8xl mx-auto justify-evenly px-4 sm:px-6 md:px-8">
+    
+    <div class="invisible fixed inset-0 left-[max(0px,calc(50%-45rem))] right-auto top-[3.8125rem] z-20 hidden w-[19rem] overflow-y-auto pb-10 pl-8 pr-6 lg:block">
+      <div class="py-5">
+        
 
-
-  <div class="justify-left mx-auto mt-8 flex max-w-screen-md px-4">
-    <article>
-      <h1 class="text-4xl font-extrabold text-slate-700 dark:text-slate-200">
-        Reading Other People's Code
-      </h1>
-      <h2 class="mt-4 text-2xl text-slate-500 dark:text-slate-400">
-        Comfortable to Read Other People's Code
-      </h2>
-      <div class="mb-4 mt-2 text-sm text-slate-500 dark:text-slate-400">
-        Nov 3, 2024 - 2 minute read
+  <div class="px-8">
+    <div class="py-5">
+      <h2 class="mb-2 text-2xl text-slate-500 dark:text-slate-400">Table of Content</h2>
+      <div class="text-lg text-slate-700 dark:text-slate-200">
+        <nav>
+            <ul class="list-inside">
+                <li class="hover:text-slate-500 hover:dark:text-slate-400"><a href="#first-step">First Step</a></li>
+                <li class="hover:text-slate-500 hover:dark:text-slate-400"><a href="#steps-how-to-read-others-people-code">Steps how to read other&amp;rsquo;s people code</a></li>
+                <li class="hover:text-slate-500 hover:dark:text-slate-400"><a href="#final-steps">final Steps</a></li>
+            </ul>
+        </nav>
       </div>
+    </div>
+  </div>
 
+
+      </div>
+    </div>
+    
+    <div class="lg:pl-[19.5rem]">
       
+      <div class="mx-auto max-w-3xl pt-10 xl:ml-0 xl:mr-[15.5rem] xl:max-w-none xl:pr-16">
+        
+        <div class="dark:prose-dark prose prose-slate relative z-20 mt-8">
+          
+          <article>
+            <h1 class="text-4xl font-extrabold text-slate-700 dark:text-slate-200">
+              Reading Other People's Code
+            </h1>
+            <h2 class="mt-4 text-2xl text-slate-500 dark:text-slate-400">
+              Comfortable to Read Other People's Code
+            </h2>
+            <div class="mb-4 mt-2 text-sm text-slate-500 dark:text-slate-400">
+              Nov 3, 2024 - 2 minute read
+            </div>
 
-      
-
-      <span class="prose prose-slate break-words text-lg text-slate-700 dark:prose-invert prose-pre:max-w-[90vw] md:prose-pre:max-w-screen-md dark:text-slate-200">
-        <p>Please make yourself comfortable to read other people&rsquo;s code, because it is going to be your daily life as a programmer. Make it as the journey to the wonderful land, and take your time, don&rsquo;t rush and understand it very well, ask these question :
+            
+            <span class="prose prose-slate break-words text-lg text-slate-700 dark:prose-invert prose-pre:max-w-[90vw] dark:text-slate-200 md:prose-pre:max-w-screen-md">
+              <h2 id="first-step">First Step</h2>
+<p>Please make yourself comfortable to read other people&rsquo;s code, because it is going to be your daily life as a programmer. Make it as the journey to the wonderful land, and take your time, don&rsquo;t rush and understand it very well, ask these question :
 Why They write it that way ?
 Do they write it with time constraints and pressure ?
 How would you implement the feature if you are the person who develops this feature ?
 Is it possible to write the unit test ?</p>
 <p>Maybe this sounds ridiculous if I say reading other people&rsquo;s code is fun, in fact it is harder than to implement something from scratch. Not to mention if the writer is not an experienced one and just rushes to make it work, yup it is the worst and a nightmare.</p>
-<p>What to do and solve this problem ?  Of course by reading the code.</p>
+<p>What to do and solve this problem ? Of course by reading the code.</p>
 <h2 id="steps-how-to-read-others-people-code">Steps how to read other&rsquo;s people code</h2>
 <ul>
 <li>Go to github.com and search for an open source project and read the code and understand it, by <code>understand</code> I mean really understand why it was written that way ?</li>
@@ -187,14 +218,41 @@ I am also not consider my self as a good one, because there are sometime I got c
 Hopefully this would give you a little help.
 Happy Coding.</p>
 
-      </span>
-    </article>
+            </span>
+          </article>
+        </div>
+        
+        <div class="fixed bottom-0 right-[max(0px,calc(50%-45rem))] top-[3.8125rem] z-20 hidden w-[19.5rem] overflow-y-auto py-10 xl:block">
+          
+
+  <div class="px-8">
+    <div class="py-5">
+      <h2 class="mb-2 text-2xl text-slate-500 dark:text-slate-400">Table of Content</h2>
+      <div class="text-lg text-slate-700 dark:text-slate-200">
+        <nav>
+            <ul class="list-inside">
+                <li class="hover:text-slate-500 hover:dark:text-slate-400"><a href="#first-step">First Step</a></li>
+                <li class="hover:text-slate-500 hover:dark:text-slate-400"><a href="#steps-how-to-read-others-people-code">Steps how to read other&amp;rsquo;s people code</a></li>
+                <li class="hover:text-slate-500 hover:dark:text-slate-400"><a href="#final-steps">final Steps</a></li>
+            </ul>
+        </nav>
+      </div>
+    </div>
   </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mx-auto mt-8 flex max-w-screen-md justify-evenly px-4"></div>
 
       </main>
     </div>
-    <footer>
-      <div class="flex flex-col justify-center p-10">
+  </body>
+  <footer>
+    <div class="flex flex-col justify-center p-10">
   
   <p class="text-center text-slate-700 dark:text-slate-400">
     &copy;
@@ -211,6 +269,5 @@ Happy Coding.</p>
   </p>
 </div>
 
-    </footer>
-  </body>
+  </footer>
 </html>

@@ -1,4 +1,4 @@
-<!doctype html><html lang="en-us">
+<!doctype html><html lang="en-us" class="[--scroll-mt:9.875rem] [scrollbar-gutter:stable] lg:[--scroll-mt:6.3125rem]">
   <head>
     
 <meta charset="utf-8" />
@@ -29,7 +29,7 @@
 
 
 
-<link type="text/css" rel="stylesheet" href="/blog/css/main.bundle.min.955b22a3fcff20511a11d9c7fdac7dd57e8293ee16e4d4ca0d6ab737f4895c3017582739cfd1f17a7c3feae23b42a8f4b01d7052fa2bc03a1430fa0669bf2d60.css" integrity="sha512-lVsio/z/IFEaEdnH/ax91X6Ck&#43;4W5NTKDWq3N/SJXDAXWCc5z9Hxenw/6uI7Qqj0sB1wUvorwDoUMPoGab8tYA==" />
+<link type="text/css" rel="stylesheet" href="/blog/css/main.bundle.min.af2ebc450931eb1b70bf3d051e0a1c7efd3ae5226ac3109210cab1871a885d44d394c8ceb6ab7ee2d6236968daa7f9452e3d3583c88da32058f1f30d89e1a504.css" integrity="sha512-ry68RQkx6xtwvz0FHgocfv065SJqwxCSEMqxhxqIXUTTlMjOtqt&#43;4tYjaWjap/lFLj01g8iNoyBY8fMNieGlBA==" />
 
 
 
@@ -76,9 +76,11 @@
 </script>
 
   </head>
-  <body class="flex h-screen flex-col justify-between bg-neutral-100 dark:bg-neutral-800">
+
+  <body class="bg-neutral-100 antialiased transition-colors duration-500 dark:border-slate-50/[0.06] dark:bg-neutral-800">
     <div>
-      <header class="sticky top-0 z-10 bg-neutral-100 dark:bg-neutral-800">
+      <header
+        class="supports-backdrop-blur:bg-white/95 sticky top-0 z-40 w-full flex-none bg-neutral-100 backdrop-blur transition-colors duration-500 dark:border-slate-50/[0.06] dark:bg-neutral-800 lg:z-50 lg:border-b lg:border-slate-900/10">
         
 
 
@@ -96,11 +98,11 @@
   <div class="flex flex-row space-x-8">
     <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
       
-        <a href="/blog/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        <a href="/blog/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
           Blog
         </a>
       
-        <a href="https://gujarats.github.io/cv" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        <a href="https://gujarats.github.io/cv" class="px-3 py-2 text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
           CV
         </a>
       
@@ -125,11 +127,11 @@
 <section id="mobile-menu" class="absolute hidden w-full origin-top animate-open-menu flex-col justify-center bg-neutral-100 text-4xl dark:bg-neutral-800">
   <nav class="flex min-h-screen flex-col items-center py-8" aria-label="mobile">
     
-      <a href="/blog/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+      <a href="/blog/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
         Blog
       </a>
     
-      <a href="https://gujarats.github.io/cv" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+      <a href="https://gujarats.github.io/cv" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
         CV
       </a>
     
@@ -137,6 +139,7 @@
 </section>
 
       </header>
+      
       <main>
         
   
@@ -144,7 +147,7 @@
   <div class="justify-left mx-auto mt-8 flex max-w-screen-xl px-4">
     <article>
       <h1 class="text-4xl font-extrabold text-slate-700 dark:text-slate-200">
-      Personal Writtings
+        Personal Writtings
       </h1>
       <div class="mt-2 text-lg text-slate-500 dark:text-slate-400">
         
@@ -157,13 +160,13 @@
     <div class="mt-8 grid grid-flow-row grid-cols-1 justify-items-center gap-8 px-4 lg:grid-cols-2">
       
         
-          <a href="/blog/my-neovim/tmux-shortcuts/">
+        <a href="/blog/my-neovim-and-tmux-shortcuts/">
           <div class="flex h-full max-h-80 w-full max-w-2xl flex-row rounded-xl bg-neutral-300 bg-clip-border text-slate-400 shadow-md dark:bg-neutral-700">
             
             <div class="flex flex-col justify-between p-6">
               <div>
-                <h4 class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased md:text-2xl dark:text-slate-200">
-                  My Neovim/Tmux Shortcuts
+                <h4 class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased dark:text-slate-200 md:text-2xl">
+                  My Neovim and Tmux Shortcuts
                 </h4>
                 <p class="mb-4 line-clamp-6 text-base text-slate-500 dark:text-slate-400">
                   There are lots of shortcuts in Neovim that I personally don&rsquo;t remember like find and replace, rename variable for refactoring.
@@ -182,17 +185,17 @@
         </a>
       
         
-          <a href="/blog/starting-my-jekyll-again/">
+        <a href="/blog/starting-my-jekyll-again/">
           <div class="flex h-full max-h-80 w-full max-w-2xl flex-row rounded-xl bg-neutral-300 bg-clip-border text-slate-400 shadow-md dark:bg-neutral-700">
             
               
               <div class="m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-clip-border dark:bg-neutral-700">
-              <img src="/blog/jekyll_logo_hu16237645614189577155.webp" alt="image" class="h-full w-full object-cover" />
+                <img src="/blog/jekyll_logo_hu16237645614189577155.webp" alt="image" class="h-full w-full object-cover" />
               </div>
             
             <div class="flex flex-col justify-between p-6">
               <div>
-                <h4 class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased md:text-2xl dark:text-slate-200">
+                <h4 class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased dark:text-slate-200 md:text-2xl">
                   Starting My Jekyll Again
                 </h4>
                 <p class="mb-4 line-clamp-6 text-base text-slate-500 dark:text-slate-400">
@@ -212,12 +215,12 @@
         </a>
       
         
-          <a href="/blog/reading-other-peoples-code/">
+        <a href="/blog/reading-other-peoples-code/">
           <div class="flex h-full max-h-80 w-full max-w-2xl flex-row rounded-xl bg-neutral-300 bg-clip-border text-slate-400 shadow-md dark:bg-neutral-700">
             
             <div class="flex flex-col justify-between p-6">
               <div>
-                <h4 class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased md:text-2xl dark:text-slate-200">
+                <h4 class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased dark:text-slate-200 md:text-2xl">
                   Reading Other People&#39;s Code
                 </h4>
                 <p class="mb-4 line-clamp-6 text-base text-slate-500 dark:text-slate-400">
@@ -237,12 +240,12 @@
         </a>
       
         
-          <a href="/blog/develop-neovim-plugins/">
+        <a href="/blog/develop-neovim-plugins/">
           <div class="flex h-full max-h-80 w-full max-w-2xl flex-row rounded-xl bg-neutral-300 bg-clip-border text-slate-400 shadow-md dark:bg-neutral-700">
             
             <div class="flex flex-col justify-between p-6">
               <div>
-                <h4 class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased md:text-2xl dark:text-slate-200">
+                <h4 class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased dark:text-slate-200 md:text-2xl">
                   Develop Neovim Plugins
                 </h4>
                 <p class="mb-4 line-clamp-6 text-base text-slate-500 dark:text-slate-400">
@@ -262,18 +265,18 @@
         </a>
       
         
-          <a href="/blog/blog-post-with-inline-images/">
+        <a href="/blog/example-on-using-this-theme/">
           <div class="flex h-full max-h-80 w-full max-w-2xl flex-row rounded-xl bg-neutral-300 bg-clip-border text-slate-400 shadow-md dark:bg-neutral-700">
             
               
               <div class="m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-clip-border dark:bg-neutral-700">
-              <img src="/blog/blog1/photo1_card_hu13380090217605976424.webp" alt="image" class="h-full w-full object-cover" />
+                <img src="/blog/blog1/photo1_card_hu13380090217605976424.webp" alt="image" class="h-full w-full object-cover" />
               </div>
             
             <div class="flex flex-col justify-between p-6">
               <div>
-                <h4 class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased md:text-2xl dark:text-slate-200">
-                  Blog Post with Inline Images
+                <h4 class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased dark:text-slate-200 md:text-2xl">
+                  Example on Using this Theme
                 </h4>
                 <p class="mb-4 line-clamp-6 text-base text-slate-500 dark:text-slate-400">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -300,17 +303,17 @@
         </a>
       
         
-          <a href="/blog/blog-post-with-extra-extra-long-title-that-keeps-on-going/">
+        <a href="/blog/blog-post-with-extra-extra-long-title-that-keeps-on-going/">
           <div class="flex h-full max-h-80 w-full max-w-2xl flex-row rounded-xl bg-neutral-300 bg-clip-border text-slate-400 shadow-md dark:bg-neutral-700">
             
               
               <div class="m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-clip-border dark:bg-neutral-700">
-              <img src="/blog/blog2/photo2_card_hu12968157655258019747.webp" alt="image" class="h-full w-full object-cover" />
+                <img src="/blog/blog2/photo2_card_hu12968157655258019747.webp" alt="image" class="h-full w-full object-cover" />
               </div>
             
             <div class="flex flex-col justify-between p-6">
               <div>
-                <h4 class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased md:text-2xl dark:text-slate-200">
+                <h4 class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased dark:text-slate-200 md:text-2xl">
                   Blog Post With Extra Extra Long Title That Keeps On Going
                 </h4>
                 <p class="mb-4 line-clamp-6 text-base text-slate-500 dark:text-slate-400">
@@ -346,12 +349,12 @@
         </a>
       
         
-          <a href="/blog/hard-lessons-from-4-years-in-various-software-companies/">
+        <a href="/blog/hard-lessons-from-4-years-in-various-software-companies/">
           <div class="flex h-full max-h-80 w-full max-w-2xl flex-row rounded-xl bg-neutral-300 bg-clip-border text-slate-400 shadow-md dark:bg-neutral-700">
             
             <div class="flex flex-col justify-between p-6">
               <div>
-                <h4 class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased md:text-2xl dark:text-slate-200">
+                <h4 class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased dark:text-slate-200 md:text-2xl">
                   Hard lessons from 4 years in various software companies
                 </h4>
                 <p class="mb-4 line-clamp-6 text-base text-slate-500 dark:text-slate-400">
@@ -371,12 +374,12 @@
         </a>
       
         
-          <a href="/blog/setup-my-own-blog-using-hugo-sass-and-gulp/">
+        <a href="/blog/setup-my-own-blog-using-hugo-sass-and-gulp/">
           <div class="flex h-full max-h-80 w-full max-w-2xl flex-row rounded-xl bg-neutral-300 bg-clip-border text-slate-400 shadow-md dark:bg-neutral-700">
             
             <div class="flex flex-col justify-between p-6">
               <div>
-                <h4 class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased md:text-2xl dark:text-slate-200">
+                <h4 class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased dark:text-slate-200 md:text-2xl">
                   Setup my own blog using Hugo, sass, and Gulp
                 </h4>
                 <p class="mb-4 line-clamp-6 text-base text-slate-500 dark:text-slate-400">
@@ -400,8 +403,9 @@
 
       </main>
     </div>
-    <footer>
-      <div class="flex flex-col justify-center p-10">
+  </body>
+  <footer>
+    <div class="flex flex-col justify-center p-10">
   
   <p class="text-center text-slate-700 dark:text-slate-400">
     &copy;
@@ -418,6 +422,5 @@
   </p>
 </div>
 
-    </footer>
-  </body>
+  </footer>
 </html>

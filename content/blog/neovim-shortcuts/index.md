@@ -1,13 +1,14 @@
 ---
 author: "Gujarat Santana"
 date: 2024-11-04
-title: My Neovim/Tmux Shortcuts
+title: My Neovim and Tmux Shortcuts
 subtitle: This shortcuts is heavily coming from craftzdog
 summary: There are lots of shortcuts in Neovim that I personally don't remember like find and replace, rename variable for refactoring.
 tags:
   - neovim
 categories:
   - editor
+toc: true
 ---
 
 There are lots of shortcuts in Neovim that I personally don't remember like find and replace, rename variable for refactoring. Due to jumping around projct like Java and other project I sometimes switching between code editor and forgot about the shortcuts, this will help me at least in the future for my personal reference.
@@ -16,12 +17,12 @@ My [dotfiles ](https://github.com/Gujarats/dotfiles)
 
 Please note that the shortcuts has been customize to my personal preference, so this is based on the `dotfiles` above.
 
-# tmux
+## tmux
 
 This tools I used daily to open lots of terminal
 `ctrl + s` --> this is the prefix shortcuts for all of my tmux
 
-## Terminal Creation
+### Terminal Creation
 
 ```
  `c` -> create new terminal tab
@@ -32,7 +33,7 @@ This tools I used daily to open lots of terminal
 
 ```
 
-## Cursor Movement
+### Cursor Movement
 
 For the current tab
 
@@ -52,15 +53,15 @@ For tab movement
 
 ```
 
-## Reszie Window
+### Reszie Window
 
 - after prefix hold `ctrl` and press arrow up,down,left,right keyboard
 
-# NeoVim
+## NeoVim
 
 This is the shortcuts for this [branch](https://github.com/Gujarats/dotfiles/tree/nvim-v0.10.2)
 
-## Exploration
+### Exploration
 
 ```
 - <space> + e -> open up folder explorer root project dir
@@ -72,7 +73,7 @@ This is the shortcuts for this [branch](https://github.com/Gujarats/dotfiles/tre
 
 ```
 
-## Editor
+### Editor
 
 ```
  te + enter -> create new tab
@@ -82,7 +83,7 @@ This is the shortcuts for this [branch](https://github.com/Gujarats/dotfiles/tre
  Many basic things which I don't cover
 ```
 
-## Refactoring
+### Refactoring
 
 `<leader>` currently mapped to `<space>`
 
