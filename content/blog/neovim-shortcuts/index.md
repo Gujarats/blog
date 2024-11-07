@@ -90,6 +90,16 @@ zc -> close current tag
 l -> open current closed tag
 ```
 
+#### Bookmark
+
+To remember the position of the code and adding tag and description to it
+
+```
+\t -> open bookmark window
+\z -> add bookmark to current project
+\g -> add bookmark to all (can be opened from anywhere)
+```
+
 ### Refactoring
 
 `<leader>` currently mapped to `<space>`
