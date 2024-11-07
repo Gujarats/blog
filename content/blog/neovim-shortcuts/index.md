@@ -4,6 +4,8 @@ date: 2024-11-04
 title: My Neovim and Tmux Shortcuts
 subtitle: This shortcuts is heavily coming from craftzdog
 summary: There are lots of shortcuts in Neovim that I personally don't remember like find and replace, rename variable for refactoring.
+cardimage: ntmux.jpg
+featureimage: ntmux.jpg
 tags:
   - neovim
 categories:
