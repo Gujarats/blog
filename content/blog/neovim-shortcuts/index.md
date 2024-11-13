@@ -102,6 +102,12 @@ To remember the position of the code and adding tag and description to it
 \g -> add bookmark to all (can be opened from anywhere)
 ```
 
+#### Git
+
+```
+<leader>gg -> openup LazyGit
+```
+
 ### Refactoring
 
 `<leader>` currently mapped to `<space>`
