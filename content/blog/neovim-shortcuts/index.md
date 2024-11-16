@@ -24,6 +24,12 @@ Please note that the shortcuts has been customize to my personal preference, so 
 This tools I used daily to open lots of terminal
 `ctrl + s` --> this is the prefix shortcuts for all of my tmux
 
+### Fresh Install
+
+```
+`I` ->  capital I install all plugins in .config.tmux
+```
+
 ### Terminal Creation
 
 ```
