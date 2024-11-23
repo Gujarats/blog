@@ -91,6 +91,17 @@ This is the shortcuts for this [branch](https://github.com/Gujarats/dotfiles/tre
  Many basic things which I don't cover
 ```
 
+#### Go
+
+This shortcut will only work on .go file extension
+
+```
+\gr -> run the current program
+\gb -> go build
+ctrl + t -> running test
+ctrl + c -> show test coverage
+```
+
 #### html
 
 ```
