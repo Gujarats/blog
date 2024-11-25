@@ -2,7 +2,6 @@
 author: "Gujarat Santana"
 date: 2024-11-04
 title: My Neovim and Tmux Shortcuts
-subtitle: This shortcuts is heavily coming from craftzdog
 summary: There are lots of shortcuts in Neovim that I personally don't remember like find and replace, rename variable for refactoring.
 cardimage: ntmux.jpg
 featureimage: ntmux.jpg
@@ -15,9 +14,10 @@ toc: true
 
 There are lots of shortcuts in Neovim that I personally don't remember like find and replace, rename variable for refactoring. Due to jumping around projct like Java and other project I sometimes switching between code editor and forgot about the shortcuts, this will help me at least in the future for my personal reference.
 
-My [dotfiles ](https://github.com/Gujarats/dotfiles)
+I'm finally using [LazyVim](https://www.lazyvim.org/) as the main Plugin it includes a lots of plugins(recommended to read the source to know the plugins). One of the cool plugin to help for productivity is the [which-key](https://github.com/folke/which-key.nvim) showing the keymaps just using `<space>?`, and if that's not enough LazyVim provides the documentation for the all [keymaps ](https://www.lazyvim.org/keymaps).
 
-Please note that the shortcuts has been customize to my personal preference, so this is based on the `dotfiles` above.
+I've been using Neovim since a very long time, and this is My [dotfiles](https://github.com/Gujarats/dotfiles).
+Please note that the shortcuts has been customize to my personal preference, so this is based on the `dotfiles` above. This shortcuts is heavily coming from craftzdog
 
 ## tmux
 
@@ -88,6 +88,7 @@ This is the shortcuts for this [branch](https://github.com/Gujarats/dotfiles/tre
  <tab> and <shift><tab> -> switching tabs
  sv -> split window to the right
  ss -> split window to bottom
+ <space>gB -> open the current buffer and line in the browser(github.com or else)
  Many basic things which I don't cover
 ```
 
@@ -106,7 +107,7 @@ ctrl + c -> show test coverage
 
 ```
 zc -> close current tag
-l -> open current closed tag
+zl -> open current closed tag
 ```
 
 #### Bookmark
