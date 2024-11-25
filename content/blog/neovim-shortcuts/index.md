@@ -124,6 +124,10 @@ To remember the position of the code and adding tag and description to it
 
 ```
 <leader>gg -> openup LazyGit
+<leader>gb -> git blame
+<leader>gf -> git file history
+<leader>gs -> git status
+<leader>ge -> git status with explorer on the left
 ```
 
 ### Refactoring
