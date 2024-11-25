@@ -88,7 +88,8 @@ This is the shortcuts for this [branch](https://github.com/Gujarats/dotfiles/tre
  <tab> and <shift><tab> -> switching tabs
  sv -> split window to the right
  ss -> split window to bottom
- <space>gB -> open the current buffer and line in the browser(github.com or else)
+ <leader>gB -> open the current buffer and line in the browser(github.com or else)
+ <leader>be -> list all the opened file (buffer) showing menu on the left
  Many basic things which I don't cover
 ```
 
