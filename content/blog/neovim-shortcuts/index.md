@@ -98,10 +98,10 @@ This is the shortcuts for this [branch](https://github.com/Gujarats/dotfiles/tre
 This shortcut will only work on .go file extension
 
 ```
-\gr -> run the current program
-\gb -> go build
-ctrl + t -> running test
-ctrl + c -> show test coverage
+\sr -> run the current program
+\sb -> go build
+\st-> running test
+--ctrl + c -> show test coverage (temp not available)
 ```
 
 #### html
