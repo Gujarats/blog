@@ -90,6 +90,10 @@ This is the shortcuts for this [branch](https://github.com/Gujarats/dotfiles/tre
  ss -> split window to bottom
  <leader>gB -> open the current buffer and line in the browser(github.com or else)
  <leader>be -> list all the opened file (buffer) showing menu on the left
+
+#add surrounding
+v -> block the word/code first
+gsa -> add '/" single or double quote or anything to surround the word/code
  Many basic things which I don't cover
 ```
 
