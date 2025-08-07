@@ -123,6 +123,7 @@ To remember the position of the code and adding tag and description to it
 \t -> open bookmark window
 \z -> add bookmark to current project
 \g -> add bookmark to all (can be opened from anywhere)
+shift + tab -> change cursor to other menu
 ```
 
 #### Git
