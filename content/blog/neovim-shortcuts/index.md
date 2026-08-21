@@ -52,7 +52,17 @@ For the current tab
  `h` -> move left
 ```
 
-For tab movement
+### copy paste
+
+I't not really straight forward when it comes to copy paste, but here the steps :
+
+- `prefix + [`
+- and then press `<space>`
+- move using vimlike `jklh`
+- press `y` -> this register the selected text to clipboard
+- and use ctrl+v to paste
+
+### For tab movement
 
 ```
  `n` -> next tab
