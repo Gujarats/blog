@@ -16,6 +16,8 @@ $ git commit -m "publish"
 $ git push
 ```
 
+After the command above github will trigger build action so github pages will be updated
+
 # Notes
 
 - Configuration base `url` and `theme` exist in `config` folder
