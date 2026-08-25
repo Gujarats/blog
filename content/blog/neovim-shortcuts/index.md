@@ -101,6 +101,10 @@ This is the shortcuts for this [branch](https://github.com/Gujarats/dotfiles/tre
  <leader>gB -> open the current buffer and line in the browser(github.com or else)
  <leader>be -> list all the opened file (buffer) showing menu on the left
 
+#current buffer
+\sp -> print the path of the current buffer/opened file
+:messages -> list all the messages and also showing the printed message above
+
 #add surrounding
 v -> block the word/code first
 gsa -> add '/" single or double quote or anything to surround the word/code
