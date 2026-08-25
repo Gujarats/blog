@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Personal Writtings on Tech Blog</title>
+    <title>Tech Blog</title>
     <link>https://gujarats.github.io/blog/</link>
-    <description>Recent content in Personal Writtings on Tech Blog</description>
+    <description>Recent content on Tech Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate>
@@ -63,6 +63,10 @@
       <pubDate>Thu, 06 Dec 2018 00:00:00 +0000</pubDate>
       <guid>https://gujarats.github.io/blog/hard-lessons-from-4-years-in-various-software-companies/</guid>
       <description>been in various types of companies from early start-up, mid-start-up, and big company. And doing some freelance jobs. with front-end,back-end and also a little bit touching the tech cloud</description>
+    </item>
+  </channel>
+</rss>
+escription>
     </item>
   </channel>
 </rss>
